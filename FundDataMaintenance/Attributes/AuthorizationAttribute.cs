@@ -38,7 +38,7 @@ namespace FundDataMaintenance.Attributes
                     var roleList = this.Roles.Split(',').Select(o => o.Trim()).ToList();
                     return !(roleList.Where(role => HttpContext.Current.User.IsInRole(role)).Count() > 0);
                 }
-                return false;
+                return !(HttpContext.Current.User.Identity.IsAuthenticated);
             }
         }
 

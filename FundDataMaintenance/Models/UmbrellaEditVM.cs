@@ -28,6 +28,7 @@ namespace FundDataMaintenance.Models
         public IList<SelectListItem> CustodianSelectList { get; set; }
         
         [DisplayName("Domicile Country"), ReadOnly(false), UIHint("Dropdown")]
+        [ReadOnlyAuthorize(Roles = "Admin")]
         public int? DomicileCountryId { get; set; }
 
         public IList<SelectListItem> DomicileCountrySelectList { get; set; }
@@ -63,6 +64,7 @@ namespace FundDataMaintenance.Models
         public IList<SelectListItem> LegalAdviserSelectList { get; set; }
 
         [DisplayName("Is Active?")]
+        [ReadOnlyAuthorize(Roles = "Admin,Foo,Bar")]
         public bool Active { get; set; }
 
         [DisplayName("Readonly"), ReadOnly(true)]

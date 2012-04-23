@@ -1,7 +1,14 @@
 ﻿@model int
 @{
-    var o = new System.Collections.Generic.Dictionary<string, object>();    
-    if (ViewData.ModelMetadata.IsReadOnly)
+    var o = new System.Collections.Generic.Dictionary<string, object>();
+
+    var isReadonly = false;
+    if (ViewData.ModelMetadata.AdditionalValues.ContainsKey("IsReadOnly"))
+    {
+        isReadonly = (bool)ViewData.ModelMetadata.AdditionalValues["IsReadOnly"];
+    }
+
+    if (ViewData.ModelMetadata.IsReadOnly | isReadonly)
     {
         o.Add("class", "disabled");
         o.Add("disabled", "disabled");

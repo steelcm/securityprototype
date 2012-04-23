@@ -22,7 +22,8 @@ namespace FundDataMaintenance.Controllers{
             _umbrellaService = umbrellaRepository;
         }
 
-        [HttpGet, Authorization]
+        [HttpGet]
+        //[Authorization]
         public ActionResult Index()
         {            
             Mapper.CreateMap<UmbrellaSM, UmbrellaIndexVM>();
@@ -30,7 +31,8 @@ namespace FundDataMaintenance.Controllers{
             return View(viewModel);
         }
 
-        [HttpGet, Authorization(Roles = "Admin")]
+        [HttpGet]
+        //[Authorization(Roles = "Admin")]
         public ActionResult Edit(int id)
         {
             Mapper.CreateMap<UmbrellaSM, UmbrellaEditVM>();

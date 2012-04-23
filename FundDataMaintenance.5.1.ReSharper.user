@@ -9,7 +9,6 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Settings/f:ActiveDirectorySettings.cs" caret="403" fromTop="14" />
       <File id="6DC83900-2887-4177-8E34-1C283C16D77A/f:App.Config" caret="82" fromTop="3" />
       <File id="A3C443CD-E5AF-4F79-BD5F-5094197AB36C/d:Services/f:UmbrellaServiceTest.cs" caret="1915" fromTop="16" />
       <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Services/f:UmbrellaService.cs" caret="776" fromTop="0" />
@@ -25,7 +24,6 @@
       <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Controllers/f:SessionController.cs" caret="1193" fromTop="16" />
       <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Views/d:Shared/f:401.cshtml" caret="171" fromTop="6" />
       <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/f:Web.config" caret="1784" fromTop="14" />
-      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="1184" fromTop="25" />
       <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Services/f:AuthenticationService.cs" caret="1017" fromTop="27" />
       <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/f:Global.asax.cs" caret="1887" fromTop="23" />
       <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Models/f:UmbrellaEditVM.cs" caret="515" fromTop="19" />
@@ -36,33 +34,13 @@
       <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Umbrella/f:UmbrellaIndex.feature" caret="337" fromTop="9" />
       <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/f:UmbrellaIndexFeatures.feature" caret="123" fromTop="2" />
       <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature.cs" caret="0" fromTop="0" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/f:UmbrellaDefinitions.cs" caret="788" fromTop="0" />
       <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="577" fromTop="19" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="500" fromTop="20" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/f:UmbrellaDefinitions.cs" caret="788" fromTop="0" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="1277" fromTop="44" />
+      <File id="6DC83900-2887-4177-8E34-1C283C16D77A/f:DataModel.Designer.cs" caret="74500" fromTop="24" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="2054" fromTop="32" />
     </RecentFiles>
     <RecentEdits>
-      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Views/d:Shared/d:EditorTemplates/f:String.cshtml" caret="256" fromTop="7" />
-      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Controllers/f:UmbrellaController.cs" caret="1040" fromTop="17" />
-      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Attributes/f:AuthorizationAttribute.cs" caret="1052" fromTop="14" />
-      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Models/f:UmbrellaEditVM.cs" caret="515" fromTop="19" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/f:UmbrellaIndexFeatures.feature" caret="1921" fromTop="49" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/f:UmbrellaIndexFeatures.feature" caret="123" fromTop="4" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/f:UmbrellaIndexFeatures.feature" caret="125" fromTop="19" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Umbrella/f:UmbrellaIndex.feature" caret="150" fromTop="6" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="558" fromTop="9" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Umbrella/f:UmbrellaIndex.feature" caret="139" fromTop="4" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Umbrella/f:UmbrellaIndex.feature" caret="337" fromTop="9" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/f:UmbrellaIndexFeatures.feature" caret="123" fromTop="2" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="560" fromTop="9" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="475" fromTop="6" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="1354" fromTop="28" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="341" fromTop="13" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="489" fromTop="9" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="375" fromTop="12" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="1662" fromTop="50" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="1183" fromTop="34" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="1406" fromTop="40" />
-      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="2461" fromTop="51" />
       <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="2447" fromTop="50" />
       <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="1913" fromTop="44" />
       <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="887" fromTop="27" />
@@ -71,6 +49,28 @@
       <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="1987" fromTop="33" />
       <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="2273" fromTop="40" />
       <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="500" fromTop="20" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="5831" fromTop="30" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="4670" fromTop="35" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="4670" fromTop="31" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="4207" fromTop="22" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="1923" fromTop="23" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="1631" fromTop="35" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="4727" fromTop="15" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="2014" fromTop="26" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="2014" fromTop="22" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="5108" fromTop="36" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="2750" fromTop="39" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="1766" fromTop="27" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="1934" fromTop="50" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="1934" fromTop="40" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="1934" fromTop="53" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="2016" fromTop="36" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="2014" fromTop="18" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="2014" fromTop="28" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="1923" fromTop="25" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="1138" fromTop="14" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="1337" fromTop="18" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="2042" fromTop="32" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -86,7 +86,7 @@
   </UnitTestRunnerNUnit>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="new" priority="53" />
+      <Item value="new" priority="55" />
       <Item value="FDAModel" priority="1" />
       <Item value="using" priority="11" />
       <Item value="FundDataMaintenanceData" priority="6" />
@@ -97,11 +97,11 @@
       <Item value="_db" priority="13" />
       <Item value="FDAEntities`0" priority="5" />
       <Item value="FDAEntities" priority="3" />
-      <Item value="private" priority="7" />
+      <Item value="private" priority="10" />
       <Item value="readonly" priority="3" />
       <Item value="public" priority="27" />
       <Item value="UmbrellaController`0" priority="4" />
-      <Item value="this" priority="11" />
+      <Item value="this" priority="13" />
       <Item value="database" priority="0" />
       <Item value="System" priority="4" />
       <Item value="Linq" priority="0" />
@@ -111,10 +111,10 @@
       <Item value="Configuration`0" priority="0" />
       <Item value="FundDataMaintenanceRepository" priority="0" />
       <Item value="IDisposable`0" priority="0" />
-      <Item value="int" priority="22" />
-      <Item value="List" priority="6" />
+      <Item value="int" priority="23" />
+      <Item value="List" priority="8" />
       <Item value="interface" priority="5" />
-      <Item value="return" priority="30" />
+      <Item value="return" priority="34" />
       <Item value="protected" priority="7" />
       <Item value="UmbrellaRepository`0" priority="1" />
       <Item value="umbrellaRepository" priority="0" />
@@ -128,19 +128,19 @@
       <Item value="SetUp" priority="0" />
       <Item value="_repository" priority="13" />
       <Item value="Mock&lt;IUmbrellaRepository&gt;" priority="1" />
-      <Item value="o" priority="60" />
+      <Item value="o" priority="64" />
       <Item value="IQueryable`0" priority="2" />
       <Item value="UmbrellaControllerTest`0" priority="0" />
       <Item value="as" priority="7" />
-      <Item value="var" priority="44" />
+      <Item value="var" priority="50" />
       <Item value="controller" priority="1" />
       <Item value="Assert`0" priority="4" />
       <Item value="Is`0" priority="3" />
       <Item value="typeof" priority="6" />
       <Item value="HttpGet" priority="1" />
       <Item value="prop" priority="17" />
-      <Item value="string" priority="26" />
-      <Item value="bool" priority="5" />
+      <Item value="string" priority="33" />
+      <Item value="bool" priority="8" />
       <Item value="Code" priority="3" />
       <Item value="Name" priority="3" />
       <Item value="Active" priority="4" />
@@ -189,7 +189,7 @@
       <Item value="id" priority="5" />
       <Item value="umbrella" priority="9" />
       <Item value="result" priority="5" />
-      <Item value="null" priority="5" />
+      <Item value="null" priority="6" />
       <Item value="UMBRELLA" priority="0" />
       <Item value="_webDriver" priority="7" />
       <Item value="ChromeDriver`0" priority="1" />
@@ -198,7 +198,7 @@
       <Item value="throw" priority="2" />
       <Item value="try" priority="2" />
       <Item value="catch" priority="2" />
-      <Item value="Exception`0" priority="4" />
+      <Item value="Exception`0" priority="5" />
       <Item value="HttpException" priority="0" />
       <Item value="NotImplementedException" priority="0" />
       <Item value="PARTY_ROLE2" priority="0" />
@@ -226,7 +226,7 @@
       <Item value="PARTY_ROLE`0" priority="1" />
       <Item value="Selected" priority="1" />
       <Item value="Mock&lt;IPartyRepository&gt;" priority="0" />
-      <Item value="String`0" priority="2" />
+      <Item value="String`0" priority="3" />
       <Item value="PARTY_ROLE_ID" priority="1" />
       <Item value="active" priority="0" />
       <Item value="FiscalYearEndId" priority="0" />
@@ -282,7 +282,7 @@
       <Item value="startingValue" priority="0" />
       <Item value="endingValue" priority="0" />
       <Item value="_adSettings" priority="0" />
-      <Item value="user" priority="1" />
+      <Item value="user" priority="3" />
       <Item value="FormsAuthentication`0" priority="0" />
       <Item value="Roles" priority="4" />
       <Item value="ComponentModel" priority="1" />
@@ -295,7 +295,7 @@
       <Item value="User" priority="1" />
       <Item value="AuthenticationRoleProvider`0" priority="1" />
       <Item value="referenceRepository" priority="1" />
-      <Item value="username" priority="2" />
+      <Item value="username" priority="4" />
       <Item value="DirectoryServices" priority="0" />
       <Item value="UserPrincipal`0" priority="0" />
       <Item value="context" priority="1" />
@@ -306,15 +306,15 @@
       <Item value="i" priority="2" />
       <Item value="role" priority="2" />
       <Item value="rs" priority="1" />
-      <Item value="e" priority="0" />
+      <Item value="e" priority="1" />
       <Item value="roles" priority="0" />
       <Item value="ADRoles" priority="3" />
-      <Item value="SECURITY_GROUP`0" priority="0" />
+      <Item value="SECURITY_GROUP`0" priority="2" />
       <Item value="Object`0" priority="0" />
-      <Item value="object" priority="1" />
+      <Item value="object" priority="3" />
       <Item value="internalRoles" priority="0" />
       <Item value="securityGroups" priority="3" />
-      <Item value="x" priority="1" />
+      <Item value="x" priority="2" />
       <Item value="SECURITY_GROUP_ROLE_TYPE`0" priority="0" />
       <Item value="y" priority="1" />
       <Item value="r" priority="2" />
@@ -341,6 +341,16 @@
       <Item value="fieldName" priority="1" />
       <Item value="By`0" priority="0" />
       <Item value="elems" priority="0" />
+      <Item value="g" priority="0" />
+      <Item value="groupName" priority="0" />
+      <Item value="returnBool" priority="0" />
+      <Item value="AppRole" priority="0" />
+      <Item value="applicationRoles" priority="0" />
+      <Item value="applicationADRoles" priority="2" />
+      <Item value="PrincipalContext`0" priority="0" />
+      <Item value="Console`0" priority="0" />
+      <Item value="IsUserInRole`0" priority="0" />
+      <Item value="XmlSiteMapProvider`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FundDataMaintenance.Controllers.UmbrellaController">
       <Item value="_db" priority="0" />
@@ -385,11 +395,13 @@
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
       <Item value="AsQueryable`0" priority="2" />
       <Item value="Select`2" priority="3" />
-      <Item value="ForEach`0" priority="5" />
+      <Item value="ForEach`0" priority="6" />
       <Item value="Add`0" priority="2" />
       <Item value="ToArray`0" priority="0" />
       <Item value="ToList`1" priority="0" />
       <Item value="Contains`0" priority="2" />
+      <Item value="Where`1" priority="0" />
+      <Item value="Any`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
       <Item value="IsTrue`0" priority="1" />
@@ -403,13 +415,15 @@
       <Item value="GreaterThanOrEqualTo`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
-      <Item value="Select`2" priority="10" />
-      <Item value="ToList`1" priority="9" />
+      <Item value="Select`2" priority="15" />
+      <Item value="ToList`1" priority="13" />
       <Item value="FirstOrDefault`1" priority="4" />
-      <Item value="Where`1" priority="8" />
+      <Item value="Where`1" priority="9" />
       <Item value="Join`4" priority="2" />
       <Item value="Contains`1" priority="0" />
       <Item value="ToArray`1" priority="0" />
+      <Item value="Distinct`1" priority="3" />
+      <Item value="DefaultIfEmpty`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FundDataMaintenanceData.UMBRELLA">
       <Item value="CODE" priority="1" />
@@ -429,7 +443,7 @@
       <Item value="LEGAL_ADVISOR_ID" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
-      <Item value="Equals`0" priority="10" />
+      <Item value="Equals`0" priority="12" />
       <Item value="ToLower`0" priority="1" />
       <Item value="Trim`0" priority="1" />
       <Item value="ToUpper`0" priority="1" />
@@ -450,8 +464,11 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
       <Item value="Count`1" priority="3" />
-      <Item value="ToList`1" priority="2" />
+      <Item value="ToList`1" priority="3" />
       <Item value="First`1" priority="1" />
+      <Item value="Distinct`1" priority="0" />
+      <Item value="Select`2" priority="0" />
+      <Item value="ToArray`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FundDataMaintenanceData.PARTY_ROLE">
       <Item value="PARTY" priority="7" />
@@ -575,7 +592,7 @@
       <Item value="Execute`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FundDataMaintenanceRepository.Interfaces.IReferenceRepository">
-      <Item value="GetAll`1" priority="6" />
+      <Item value="GetAll`1" priority="8" />
       <Item value="GetById`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Data.Objects.ObjectResult`1">
@@ -640,34 +657,39 @@
       <Item value="IsAuthenticated" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.DirectoryServices.AccountManagement.UserPrincipal">
-      <Item value="FindByIdentity`0" priority="0" />
+      <Item value="FindByIdentity`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.DirectoryServices.AccountManagement.UserPrincipal">
-      <Item value="GetAuthorizationGroups`0" priority="0" />
+      <Item value="GetAuthorizationGroups`0" priority="2" />
+      <Item value="GetGroups`0" priority="0" />
+      <Item value="AdvancedSearchFilter" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FundDataMaintenanceData.SECURITY_GROUP">
-      <Item value="NAME" priority="3" />
+      <Item value="NAME" priority="6" />
       <Item value="SECURITY_GROUP_ID" priority="2" />
       <Item value="PropertyChanging" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.DirectoryServices.AccountManagement.PrincipalSearchResult`1">
       <Item value="ElementAt`1" priority="1" />
       <Item value="Count`1" priority="0" />
+      <Item value="Where`1" priority="1" />
+      <Item value="Any`1" priority="1" />
+      <Item value="ToArray`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.DirectoryServices.AccountManagement.Principal">
-      <Item value="Name" priority="1" />
+      <Item value="Name" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FundDataMaintenaceBusiness.Providers.AuthenticationRoleProvider">
-      <Item value="_referenceRepository" priority="2" />
+      <Item value="_referenceRepository" priority="4" />
       <Item value="GetRolesForUser`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FundDataMaintenanceData.SECURITY_GROUP_ROLE">
-      <Item value="SECURITY_GROUP_ID" priority="1" />
-      <Item value="SECURITY_GROUP_ROLE_TYPE_ID" priority="1" />
+      <Item value="SECURITY_GROUP_ID" priority="2" />
+      <Item value="SECURITY_GROUP_ROLE_TYPE_ID" priority="2" />
       <Item value="ACTIVE_IND" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FundDataMaintenanceData.SECURITY_GROUP_ROLE_TYPE">
-      <Item value="SECURITY_GROUP_ROLE_TYPE_ID" priority="0" />
+      <Item value="SECURITY_GROUP_ROLE_TYPE_ID" priority="1" />
       <Item value="NAME" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Diagnostics.Contracts.Contract">
@@ -720,6 +742,18 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:OpenQA.Selenium.INavigation">
       <Item value="GoToUrl`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DirectoryServices.AccountManagement.ContextType">
+      <Item value="Domain" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="Write`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ArrayList">
+      <Item value="ToArray`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

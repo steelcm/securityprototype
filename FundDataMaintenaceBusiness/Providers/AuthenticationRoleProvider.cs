@@ -1,7 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.DirectoryServices;
 using System.Linq;
+using System.Security.Principal;
 using System.Text;
+using System.Web;
 using System.Web.Security;
 using FundDataMaintenanceData;
 using FundDataMaintenanceRepository.Interfaces;
@@ -29,15 +33,28 @@ namespace FundDataMaintenaceBusiness.Providers
 
         public override bool IsUserInRole(string username, string roleName)
         {
-            var userRoles = this.GetRolesForUser(username);
-            return userRoles.Contains(roleName);
+            var adRoles = ADRolesByAppRole(roleName);
+            var returnBool = false;
+            using (var context = new PrincipalContext(ContextType.Domain))
+            {
+                using (var user = UserPrincipal.FindByIdentity(context, username))
+                {
+                    if (user != null)
+                    {
+                        returnBool = user.GetGroups().Any(g => adRoles.Contains(g.Name));
+                    }
+                }
+            }
+            return returnBool;
         }
 
         public override string[] GetRolesForUser(string username)
         {
-            var ADRoles = GetADRoles(username);
-            var securityGroups = this._referenceRepository.GetAll<SECURITY_GROUP>().Where(o => ADRoles.Contains(o.NAME)).Join(this._referenceRepository.GetAll<SECURITY_GROUP_ROLE>().Where(r => r.ACTIVE_IND.Equals("Y")), o => o.SECURITY_GROUP_ID, r => r.SECURITY_GROUP_ID, (o, r) => r.SECURITY_GROUP_ROLE_TYPE_ID).Join(this._referenceRepository.GetAll<SECURITY_GROUP_ROLE_TYPE>(), o => o, t => t.SECURITY_GROUP_ROLE_TYPE_ID, (o, t) => t.NAME);
-            return securityGroups.ToArray();
+            
+            return this._referenceRepository.GetAll<SECURITY_GROUP_ROLE_TYPE>().Select(o => o.NAME).Distinct().ToList().Where(o => IsUserInRole(username, o)).ToArray();
+            //var adRoles = ADRolesByUsername(username);
+            //var securityGroups = this._referenceRepository.GetAll<SECURITY_GROUP>().Where(o => adRoles.Contains(o.NAME)).Join(this._referenceRepository.GetAll<SECURITY_GROUP_ROLE>().Where(r => r.ACTIVE_IND.Equals("Y")), o => o.SECURITY_GROUP_ID, r => r.SECURITY_GROUP_ID, (o, r) => r.SECURITY_GROUP_ROLE_TYPE_ID).Join(this._referenceRepository.GetAll<SECURITY_GROUP_ROLE_TYPE>(), o => o, t => t.SECURITY_GROUP_ROLE_TYPE_ID, (o, t) => t.NAME);
+            //return securityGroups.ToArray();
         }
 
         public override void CreateRole(string roleName)
@@ -88,7 +105,12 @@ namespace FundDataMaintenaceBusiness.Providers
 
         #endregion
 
-        private List<string> GetADRoles(string username)
+        private List<string> ADRolesByAppRole(string appRole)
+        {
+            return this._referenceRepository.GetAll<SECURITY_GROUP_ROLE_TYPE>().Where(o => o.NAME.Equals(appRole)).Join(this._referenceRepository.GetAll<SECURITY_GROUP_ROLE>().Where(r => r.ACTIVE_IND.Equals("Y")), o => o.SECURITY_GROUP_ROLE_TYPE_ID, r => r.SECURITY_GROUP_ROLE_TYPE_ID, (o, r) => r.SECURITY_GROUP_ID).Join(this._referenceRepository.GetAll<SECURITY_GROUP>(), o => o, t => t.SECURITY_GROUP_ID, (o, t) => t.NAME).ToList();
+        }
+
+        private static List<string> ADRolesByUsername(string username)
         {
             var roleList = new List<string>();
             using (var context = new PrincipalContext(ContextType.Domain))
@@ -97,7 +119,7 @@ namespace FundDataMaintenaceBusiness.Providers
                 {
                     if (user != null)
                     {
-                        var ADgroups = user.GetAuthorizationGroups();
+                        var ADgroups = user.GetGroups();
                         if (ADgroups.Count() > 0)
                         {
                             var i = 0;
