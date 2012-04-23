@@ -1,0 +1,16 @@
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceSpecs\bin\Debug\FundDataMaintenanceSpecs.dll.config
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceSpecs\bin\Debug\FundDataMaintenanceSpecs.dll
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceSpecs\bin\Debug\FundDataMaintenanceSpecs.pdb
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceSpecs\bin\Debug\Ionic.Zip.dll
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceSpecs\bin\Debug\Newtonsoft.Json.dll
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceSpecs\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceSpecs\bin\Debug\TechTalk.SpecFlow.dll
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceSpecs\bin\Debug\WebDriver.dll
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceSpecs\bin\Debug\Ionic.Zip.xml
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceSpecs\bin\Debug\Newtonsoft.Json.pdb
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceSpecs\bin\Debug\Newtonsoft.Json.xml
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceSpecs\bin\Debug\nunit.framework.xml
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceSpecs\bin\Debug\WebDriver.xml
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceSpecs\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceSpecs\obj\Debug\FundDataMaintenanceSpecs.dll
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceSpecs\obj\Debug\FundDataMaintenanceSpecs.pdb

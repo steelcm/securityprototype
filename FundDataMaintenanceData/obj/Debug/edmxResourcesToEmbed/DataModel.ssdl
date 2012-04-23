@@ -1,0 +1,1868 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FDAModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="FDAModelStoreContainer">
+    <EntitySet Name="ASSET_MATCHING" EntityType="FDAModel.Store.ASSET_MATCHING" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BENCHMARK" EntityType="FDAModel.Store.BENCHMARK" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BENCHMARK_ASSOCIATION" EntityType="FDAModel.Store.BENCHMARK_ASSOCIATION" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BENCHMARK_INDEX" EntityType="FDAModel.Store.BENCHMARK_INDEX" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CALENDAR_EVENT_TYPE" EntityType="FDAModel.Store.CALENDAR_EVENT_TYPE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="COUNTRY" EntityType="FDAModel.Store.COUNTRY" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CURRENCY" EntityType="FDAModel.Store.CURRENCY" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CUT_OFF_TIME" EntityType="FDAModel.Store.CUT_OFF_TIME" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DISTRIBUTION_FREQUENCY" EntityType="FDAModel.Store.DISTRIBUTION_FREQUENCY" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DISTRIBUTION_POLICY" EntityType="FDAModel.Store.DISTRIBUTION_POLICY" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FILE_PROVIDER" EntityType="FDAModel.Store.FILE_PROVIDER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FISCAL_YEAR_END" EntityType="FDAModel.Store.FISCAL_YEAR_END" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND" EntityType="FDAModel.Store.FUND" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_ASSET" EntityType="FDAModel.Store.FUND_ASSET" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_ASSET_IDENTIFIER" EntityType="FDAModel.Store.FUND_ASSET_IDENTIFIER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_ASSET_IDENTIFIER_TYPE" EntityType="FDAModel.Store.FUND_ASSET_IDENTIFIER_TYPE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_ASSET_PUBLICATION_MEDIA" EntityType="FDAModel.Store.FUND_ASSET_PUBLICATION_MEDIA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_ASSET_RATING" EntityType="FDAModel.Store.FUND_ASSET_RATING" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_BENCHMARK_ASSOCIATION" EntityType="FDAModel.Store.FUND_BENCHMARK_ASSOCIATION" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_BENCHMARK_ASSOCIATION_TYPE" EntityType="FDAModel.Store.FUND_BENCHMARK_ASSOCIATION_TYPE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_CALENDAR_EVENT" EntityType="FDAModel.Store.FUND_CALENDAR_EVENT" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_GROUPING" EntityType="FDAModel.Store.FUND_GROUPING" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_PAYMENT_CURRENCY" EntityType="FDAModel.Store.FUND_PAYMENT_CURRENCY" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_PORTFOLIO_MANAGER" EntityType="FDAModel.Store.FUND_PORTFOLIO_MANAGER" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_REGISTERED_COUNTRY" EntityType="FDAModel.Store.FUND_REGISTERED_COUNTRY" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_REPORTING_CURRENCY" EntityType="FDAModel.Store.FUND_REPORTING_CURRENCY" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_SHARECLASS" EntityType="FDAModel.Store.FUND_SHARECLASS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_SHARECLASS_FEATURE" EntityType="FDAModel.Store.FUND_SHARECLASS_FEATURE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_SHARECLASS_FEATURE_TYPE" EntityType="FDAModel.Store.FUND_SHARECLASS_FEATURE_TYPE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_SHARECLASS_MANAGEMENT_FEE" EntityType="FDAModel.Store.FUND_SHARECLASS_MANAGEMENT_FEE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FUND_VALUATION_TIMING" EntityType="FDAModel.Store.FUND_VALUATION_TIMING" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GROUP_TYPE" EntityType="FDAModel.Store.GROUP_TYPE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GROUP_USAGE" EntityType="FDAModel.Store.GROUP_USAGE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GROUPING" EntityType="FDAModel.Store.GROUPING" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HOLDING_FILE_NAME" EntityType="FDAModel.Store.HOLDING_FILE_NAME" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="IMA_SECTOR" EntityType="FDAModel.Store.IMA_SECTOR" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="INDEX_ELEMENT" EntityType="FDAModel.Store.INDEX_ELEMENT" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="INDEX_TYPE" EntityType="FDAModel.Store.INDEX_TYPE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="INDEX_VARIANT_TYPE" EntityType="FDAModel.Store.INDEX_VARIANT_TYPE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="NAV_FILE_NAME" EntityType="FDAModel.Store.NAV_FILE_NAME" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PARTY" EntityType="FDAModel.Store.PARTY" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PARTY_ROLE" EntityType="FDAModel.Store.PARTY_ROLE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PARTY_ROLE_TYPE" EntityType="FDAModel.Store.PARTY_ROLE_TYPE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RATING" EntityType="FDAModel.Store.RATING" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="REBALANCING_FREQUENCY" EntityType="FDAModel.Store.REBALANCING_FREQUENCY" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SECURITY_GROUP" EntityType="FDAModel.Store.SECURITY_GROUP" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SECURITY_GROUP_ROLE" EntityType="FDAModel.Store.SECURITY_GROUP_ROLE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SECURITY_GROUP_ROLE_TYPE" EntityType="FDAModel.Store.SECURITY_GROUP_ROLE_TYPE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SHARECLASS" EntityType="FDAModel.Store.SHARECLASS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SUMMARY_FILE_NAME" EntityType="FDAModel.Store.SUMMARY_FILE_NAME" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UMBRELLA" EntityType="FDAModel.Store.UMBRELLA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="VALUATION_FREQUENCY" EntityType="FDAModel.Store.VALUATION_FREQUENCY" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="VALUATION_TIMING" EntityType="FDAModel.Store.VALUATION_TIMING" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="VEHICLE_TYPE" EntityType="FDAModel.Store.VEHICLE_TYPE" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="RefBENCHMARK62" Association="FDAModel.Store.RefBENCHMARK62">
+      <End Role="BENCHMARK" EntitySet="BENCHMARK" />
+      <End Role="BENCHMARK_ASSOCIATION" EntitySet="BENCHMARK_ASSOCIATION" />
+    </AssociationSet>
+    <AssociationSet Name="RefBENCHMARK69" Association="FDAModel.Store.RefBENCHMARK69">
+      <End Role="BENCHMARK" EntitySet="BENCHMARK" />
+      <End Role="BENCHMARK_INDEX" EntitySet="BENCHMARK_INDEX" />
+    </AssociationSet>
+    <AssociationSet Name="RefCALENDAR_EVENT_TYPE41" Association="FDAModel.Store.RefCALENDAR_EVENT_TYPE41">
+      <End Role="CALENDAR_EVENT_TYPE" EntitySet="CALENDAR_EVENT_TYPE" />
+      <End Role="FUND_CALENDAR_EVENT" EntitySet="FUND_CALENDAR_EVENT" />
+    </AssociationSet>
+    <AssociationSet Name="RefCOUNTRY56" Association="FDAModel.Store.RefCOUNTRY56">
+      <End Role="COUNTRY" EntitySet="COUNTRY" />
+      <End Role="UMBRELLA" EntitySet="UMBRELLA" />
+    </AssociationSet>
+    <AssociationSet Name="RefCOUNTRY58" Association="FDAModel.Store.RefCOUNTRY58">
+      <End Role="COUNTRY" EntitySet="COUNTRY" />
+      <End Role="FUND_REGISTERED_COUNTRY" EntitySet="FUND_REGISTERED_COUNTRY" />
+    </AssociationSet>
+    <AssociationSet Name="RefCURRENCY13" Association="FDAModel.Store.RefCURRENCY13">
+      <End Role="CURRENCY" EntitySet="CURRENCY" />
+      <End Role="FUND_ASSET" EntitySet="FUND_ASSET" />
+    </AssociationSet>
+    <AssociationSet Name="RefCURRENCY230" Association="FDAModel.Store.RefCURRENCY230">
+      <End Role="CURRENCY" EntitySet="CURRENCY" />
+      <End Role="FUND_PAYMENT_CURRENCY" EntitySet="FUND_PAYMENT_CURRENCY" />
+    </AssociationSet>
+    <AssociationSet Name="RefCURRENCY234" Association="FDAModel.Store.RefCURRENCY234">
+      <End Role="CURRENCY" EntitySet="CURRENCY" />
+      <End Role="BENCHMARK_INDEX" EntitySet="BENCHMARK_INDEX" />
+    </AssociationSet>
+    <AssociationSet Name="RefCURRENCY28" Association="FDAModel.Store.RefCURRENCY28">
+      <End Role="CURRENCY" EntitySet="CURRENCY" />
+      <End Role="FUND" EntitySet="FUND" />
+    </AssociationSet>
+    <AssociationSet Name="RefCURRENCY29" Association="FDAModel.Store.RefCURRENCY29">
+      <End Role="CURRENCY" EntitySet="CURRENCY" />
+      <End Role="FUND" EntitySet="FUND" />
+    </AssociationSet>
+    <AssociationSet Name="RefCURRENCY39" Association="FDAModel.Store.RefCURRENCY39">
+      <End Role="CURRENCY" EntitySet="CURRENCY" />
+      <End Role="FUND" EntitySet="FUND" />
+    </AssociationSet>
+    <AssociationSet Name="RefCURRENCY45" Association="FDAModel.Store.RefCURRENCY45">
+      <End Role="CURRENCY" EntitySet="CURRENCY" />
+      <End Role="FUND_REPORTING_CURRENCY" EntitySet="FUND_REPORTING_CURRENCY" />
+    </AssociationSet>
+    <AssociationSet Name="RefCURRENCY64" Association="FDAModel.Store.RefCURRENCY64">
+      <End Role="CURRENCY" EntitySet="CURRENCY" />
+      <End Role="BENCHMARK" EntitySet="BENCHMARK" />
+    </AssociationSet>
+    <AssociationSet Name="RefCURRENCY75" Association="FDAModel.Store.RefCURRENCY75">
+      <End Role="CURRENCY" EntitySet="CURRENCY" />
+      <End Role="SHARECLASS" EntitySet="SHARECLASS" />
+    </AssociationSet>
+    <AssociationSet Name="RefCUT_OFF_TIME63" Association="FDAModel.Store.RefCUT_OFF_TIME63">
+      <End Role="CUT_OFF_TIME" EntitySet="CUT_OFF_TIME" />
+      <End Role="FUND" EntitySet="FUND" />
+    </AssociationSet>
+    <AssociationSet Name="RefDISTRIBUTION_FREQUENCY247" Association="FDAModel.Store.RefDISTRIBUTION_FREQUENCY247">
+      <End Role="DISTRIBUTION_FREQUENCY" EntitySet="DISTRIBUTION_FREQUENCY" />
+      <End Role="FUND_SHARECLASS" EntitySet="FUND_SHARECLASS" />
+    </AssociationSet>
+    <AssociationSet Name="RefDISTRIBUTION_POLICY233" Association="FDAModel.Store.RefDISTRIBUTION_POLICY233">
+      <End Role="DISTRIBUTION_POLICY" EntitySet="DISTRIBUTION_POLICY" />
+      <End Role="FUND_SHARECLASS" EntitySet="FUND_SHARECLASS" />
+    </AssociationSet>
+    <AssociationSet Name="RefFILE_PROVIDER157" Association="FDAModel.Store.RefFILE_PROVIDER157">
+      <End Role="FILE_PROVIDER" EntitySet="FILE_PROVIDER" />
+      <End Role="UMBRELLA" EntitySet="UMBRELLA" />
+    </AssociationSet>
+    <AssociationSet Name="RefFISCALYEAREND" Association="FDAModel.Store.RefFISCALYEAREND">
+      <End Role="FISCAL_YEAR_END" EntitySet="FISCAL_YEAR_END" />
+      <End Role="UMBRELLA" EntitySet="UMBRELLA" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND_ASSET_IDENTIFIER_TYPE37" Association="FDAModel.Store.RefFUND_ASSET_IDENTIFIER_TYPE37">
+      <End Role="FUND_ASSET_IDENTIFIER_TYPE" EntitySet="FUND_ASSET_IDENTIFIER_TYPE" />
+      <End Role="FUND_ASSET_IDENTIFIER" EntitySet="FUND_ASSET_IDENTIFIER" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND_ASSET131" Association="FDAModel.Store.RefFUND_ASSET131">
+      <End Role="FUND_ASSET" EntitySet="FUND_ASSET" />
+      <End Role="FUND_ASSET_RATING" EntitySet="FUND_ASSET_RATING" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND_ASSET36" Association="FDAModel.Store.RefFUND_ASSET36">
+      <End Role="FUND_ASSET" EntitySet="FUND_ASSET" />
+      <End Role="FUND_ASSET_IDENTIFIER" EntitySet="FUND_ASSET_IDENTIFIER" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND_ASSET78" Association="FDAModel.Store.RefFUND_ASSET78">
+      <End Role="FUND_ASSET" EntitySet="FUND_ASSET" />
+      <End Role="FUND_ASSET_PUBLICATION_MEDIA" EntitySet="FUND_ASSET_PUBLICATION_MEDIA" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND_BENCHMARK_ASSOCIATION_TYPE216" Association="FDAModel.Store.RefFUND_BENCHMARK_ASSOCIATION_TYPE216">
+      <End Role="FUND_BENCHMARK_ASSOCIATION_TYPE" EntitySet="FUND_BENCHMARK_ASSOCIATION_TYPE" />
+      <End Role="FUND_BENCHMARK_ASSOCIATION" EntitySet="FUND_BENCHMARK_ASSOCIATION" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND_BENCHMARK_ASSOCIATION174" Association="FDAModel.Store.RefFUND_BENCHMARK_ASSOCIATION174">
+      <End Role="FUND_BENCHMARK_ASSOCIATION" EntitySet="FUND_BENCHMARK_ASSOCIATION" />
+      <End Role="BENCHMARK_ASSOCIATION" EntitySet="BENCHMARK_ASSOCIATION" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND_SHARECLASS_FEATURE_TYPE151" Association="FDAModel.Store.RefFUND_SHARECLASS_FEATURE_TYPE151">
+      <End Role="FUND_SHARECLASS_FEATURE_TYPE" EntitySet="FUND_SHARECLASS_FEATURE_TYPE" />
+      <End Role="FUND_SHARECLASS_FEATURE" EntitySet="FUND_SHARECLASS_FEATURE" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND_SHARECLASS12" Association="FDAModel.Store.RefFUND_SHARECLASS12">
+      <End Role="FUND_SHARECLASS" EntitySet="FUND_SHARECLASS" />
+      <End Role="FUND_ASSET" EntitySet="FUND_ASSET" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND_SHARECLASS149" Association="FDAModel.Store.RefFUND_SHARECLASS149">
+      <End Role="FUND_SHARECLASS" EntitySet="FUND_SHARECLASS" />
+      <End Role="FUND_SHARECLASS1" EntitySet="FUND_SHARECLASS" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND_SHARECLASS150" Association="FDAModel.Store.RefFUND_SHARECLASS150">
+      <End Role="FUND_SHARECLASS" EntitySet="FUND_SHARECLASS" />
+      <End Role="FUND_SHARECLASS_FEATURE" EntitySet="FUND_SHARECLASS_FEATURE" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND_SHARECLASS79" Association="FDAModel.Store.RefFUND_SHARECLASS79">
+      <End Role="FUND_SHARECLASS" EntitySet="FUND_SHARECLASS" />
+      <End Role="FUND_SHARECLASS_MANAGEMENT_FEE" EntitySet="FUND_SHARECLASS_MANAGEMENT_FEE" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND173" Association="FDAModel.Store.RefFUND173">
+      <End Role="FUND" EntitySet="FUND" />
+      <End Role="FUND_BENCHMARK_ASSOCIATION" EntitySet="FUND_BENCHMARK_ASSOCIATION" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND188" Association="FDAModel.Store.RefFUND188">
+      <End Role="FUND" EntitySet="FUND" />
+      <End Role="FUND_PORTFOLIO_MANAGER" EntitySet="FUND_PORTFOLIO_MANAGER" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND229" Association="FDAModel.Store.RefFUND229">
+      <End Role="FUND" EntitySet="FUND" />
+      <End Role="FUND_PAYMENT_CURRENCY" EntitySet="FUND_PAYMENT_CURRENCY" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND4" Association="FDAModel.Store.RefFUND4">
+      <End Role="FUND" EntitySet="FUND" />
+      <End Role="FUND_GROUPING" EntitySet="FUND_GROUPING" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND40" Association="FDAModel.Store.RefFUND40">
+      <End Role="FUND" EntitySet="FUND" />
+      <End Role="FUND_CALENDAR_EVENT" EntitySet="FUND_CALENDAR_EVENT" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND44" Association="FDAModel.Store.RefFUND44">
+      <End Role="FUND" EntitySet="FUND" />
+      <End Role="FUND_REPORTING_CURRENCY" EntitySet="FUND_REPORTING_CURRENCY" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND57" Association="FDAModel.Store.RefFUND57">
+      <End Role="FUND" EntitySet="FUND" />
+      <End Role="FUND_REGISTERED_COUNTRY" EntitySet="FUND_REGISTERED_COUNTRY" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND72" Association="FDAModel.Store.RefFUND72">
+      <End Role="FUND" EntitySet="FUND" />
+      <End Role="FUND_VALUATION_TIMING" EntitySet="FUND_VALUATION_TIMING" />
+    </AssociationSet>
+    <AssociationSet Name="RefFUND8" Association="FDAModel.Store.RefFUND8">
+      <End Role="FUND" EntitySet="FUND" />
+      <End Role="FUND_SHARECLASS" EntitySet="FUND_SHARECLASS" />
+    </AssociationSet>
+    <AssociationSet Name="RefGROUP_TYPE2" Association="FDAModel.Store.RefGROUP_TYPE2">
+      <End Role="GROUP_TYPE" EntitySet="GROUP_TYPE" />
+      <End Role="GROUPING" EntitySet="GROUPING" />
+    </AssociationSet>
+    <AssociationSet Name="RefGROUP_USAGE1" Association="FDAModel.Store.RefGROUP_USAGE1">
+      <End Role="GROUP_USAGE" EntitySet="GROUP_USAGE" />
+      <End Role="GROUPING" EntitySet="GROUPING" />
+    </AssociationSet>
+    <AssociationSet Name="RefGROUPING3" Association="FDAModel.Store.RefGROUPING3">
+      <End Role="GROUPING" EntitySet="GROUPING" />
+      <End Role="FUND_GROUPING" EntitySet="FUND_GROUPING" />
+    </AssociationSet>
+    <AssociationSet Name="RefHOLDING_FILE_NAME" Association="FDAModel.Store.RefHOLDING_FILE_NAME">
+      <End Role="HOLDING_FILE_NAME" EntitySet="HOLDING_FILE_NAME" />
+      <End Role="FUND" EntitySet="FUND" />
+    </AssociationSet>
+    <AssociationSet Name="RefIMA_SECTOR189" Association="FDAModel.Store.RefIMA_SECTOR189">
+      <End Role="IMA_SECTOR" EntitySet="IMA_SECTOR" />
+      <End Role="FUND" EntitySet="FUND" />
+    </AssociationSet>
+    <AssociationSet Name="RefINDEX_ELEMENT70" Association="FDAModel.Store.RefINDEX_ELEMENT70">
+      <End Role="INDEX_ELEMENT" EntitySet="INDEX_ELEMENT" />
+      <End Role="BENCHMARK_INDEX" EntitySet="BENCHMARK_INDEX" />
+    </AssociationSet>
+    <AssociationSet Name="RefINDEX_TYPE66" Association="FDAModel.Store.RefINDEX_TYPE66">
+      <End Role="INDEX_TYPE" EntitySet="INDEX_TYPE" />
+      <End Role="INDEX_ELEMENT" EntitySet="INDEX_ELEMENT" />
+    </AssociationSet>
+    <AssociationSet Name="RefINDEX_VARIANT_TYPE67" Association="FDAModel.Store.RefINDEX_VARIANT_TYPE67">
+      <End Role="INDEX_VARIANT_TYPE" EntitySet="INDEX_VARIANT_TYPE" />
+      <End Role="INDEX_ELEMENT" EntitySet="INDEX_ELEMENT" />
+    </AssociationSet>
+    <AssociationSet Name="RefNAV_FILE_NAME" Association="FDAModel.Store.RefNAV_FILE_NAME">
+      <End Role="NAV_FILE_NAME" EntitySet="NAV_FILE_NAME" />
+      <End Role="FUND" EntitySet="FUND" />
+    </AssociationSet>
+    <AssociationSet Name="RefPARTY_ROLE_TYPE320" Association="FDAModel.Store.RefPARTY_ROLE_TYPE320">
+      <End Role="PARTY_ROLE_TYPE" EntitySet="PARTY_ROLE_TYPE" />
+      <End Role="PARTY_ROLE" EntitySet="PARTY_ROLE" />
+    </AssociationSet>
+    <AssociationSet Name="RefPARTY_ROLE322" Association="FDAModel.Store.RefPARTY_ROLE322">
+      <End Role="PARTY_ROLE" EntitySet="PARTY_ROLE" />
+      <End Role="FILE_PROVIDER" EntitySet="FILE_PROVIDER" />
+    </AssociationSet>
+    <AssociationSet Name="RefPARTY_ROLE323" Association="FDAModel.Store.RefPARTY_ROLE323">
+      <End Role="PARTY_ROLE" EntitySet="PARTY_ROLE" />
+      <End Role="INDEX_ELEMENT" EntitySet="INDEX_ELEMENT" />
+    </AssociationSet>
+    <AssociationSet Name="RefPARTY_ROLE324" Association="FDAModel.Store.RefPARTY_ROLE324">
+      <End Role="PARTY_ROLE" EntitySet="PARTY_ROLE" />
+      <End Role="RATING" EntitySet="RATING" />
+    </AssociationSet>
+    <AssociationSet Name="RefPARTY_ROLE325" Association="FDAModel.Store.RefPARTY_ROLE325">
+      <End Role="PARTY_ROLE" EntitySet="PARTY_ROLE" />
+      <End Role="FUND_ASSET_PUBLICATION_MEDIA" EntitySet="FUND_ASSET_PUBLICATION_MEDIA" />
+    </AssociationSet>
+    <AssociationSet Name="RefPARTY_ROLE326" Association="FDAModel.Store.RefPARTY_ROLE326">
+      <End Role="PARTY_ROLE" EntitySet="PARTY_ROLE" />
+      <End Role="FUND_PORTFOLIO_MANAGER" EntitySet="FUND_PORTFOLIO_MANAGER" />
+    </AssociationSet>
+    <AssociationSet Name="RefPARTY_ROLE327" Association="FDAModel.Store.RefPARTY_ROLE327">
+      <End Role="PARTY_ROLE" EntitySet="PARTY_ROLE" />
+      <End Role="FUND" EntitySet="FUND" />
+    </AssociationSet>
+    <AssociationSet Name="RefPARTY_ROLE328" Association="FDAModel.Store.RefPARTY_ROLE328">
+      <End Role="PARTY_ROLE" EntitySet="PARTY_ROLE" />
+      <End Role="UMBRELLA" EntitySet="UMBRELLA" />
+    </AssociationSet>
+    <AssociationSet Name="RefPARTY_ROLE329" Association="FDAModel.Store.RefPARTY_ROLE329">
+      <End Role="PARTY_ROLE" EntitySet="PARTY_ROLE" />
+      <End Role="UMBRELLA" EntitySet="UMBRELLA" />
+    </AssociationSet>
+    <AssociationSet Name="RefPARTY_ROLE330" Association="FDAModel.Store.RefPARTY_ROLE330">
+      <End Role="PARTY_ROLE" EntitySet="PARTY_ROLE" />
+      <End Role="UMBRELLA" EntitySet="UMBRELLA" />
+    </AssociationSet>
+    <AssociationSet Name="RefPARTY_ROLE331" Association="FDAModel.Store.RefPARTY_ROLE331">
+      <End Role="PARTY_ROLE" EntitySet="PARTY_ROLE" />
+      <End Role="UMBRELLA" EntitySet="UMBRELLA" />
+    </AssociationSet>
+    <AssociationSet Name="RefPARTY321" Association="FDAModel.Store.RefPARTY321">
+      <End Role="PARTY" EntitySet="PARTY" />
+      <End Role="PARTY_ROLE" EntitySet="PARTY_ROLE" />
+    </AssociationSet>
+    <AssociationSet Name="RefRATING50" Association="FDAModel.Store.RefRATING50">
+      <End Role="RATING" EntitySet="RATING" />
+      <End Role="FUND_ASSET_RATING" EntitySet="FUND_ASSET_RATING" />
+    </AssociationSet>
+    <AssociationSet Name="RefREBALANCING_FREQUENCY71" Association="FDAModel.Store.RefREBALANCING_FREQUENCY71">
+      <End Role="REBALANCING_FREQUENCY" EntitySet="REBALANCING_FREQUENCY" />
+      <End Role="BENCHMARK" EntitySet="BENCHMARK" />
+    </AssociationSet>
+    <AssociationSet Name="RefSHARECLASS9" Association="FDAModel.Store.RefSHARECLASS9">
+      <End Role="SHARECLASS" EntitySet="SHARECLASS" />
+      <End Role="FUND_SHARECLASS" EntitySet="FUND_SHARECLASS" />
+    </AssociationSet>
+    <AssociationSet Name="RefSUMMARY_FILE_NAME" Association="FDAModel.Store.RefSUMMARY_FILE_NAME">
+      <End Role="SUMMARY_FILE_NAME" EntitySet="SUMMARY_FILE_NAME" />
+      <End Role="FUND" EntitySet="FUND" />
+    </AssociationSet>
+    <AssociationSet Name="RefUMBRELLA6" Association="FDAModel.Store.RefUMBRELLA6">
+      <End Role="UMBRELLA" EntitySet="UMBRELLA" />
+      <End Role="FUND" EntitySet="FUND" />
+    </AssociationSet>
+    <AssociationSet Name="RefVALUATION_FREQUENCY59" Association="FDAModel.Store.RefVALUATION_FREQUENCY59">
+      <End Role="VALUATION_FREQUENCY" EntitySet="VALUATION_FREQUENCY" />
+      <End Role="FUND" EntitySet="FUND" />
+    </AssociationSet>
+    <AssociationSet Name="RefVALUATION_FREQUENCY60" Association="FDAModel.Store.RefVALUATION_FREQUENCY60">
+      <End Role="VALUATION_FREQUENCY" EntitySet="VALUATION_FREQUENCY" />
+      <End Role="BENCHMARK" EntitySet="BENCHMARK" />
+    </AssociationSet>
+    <AssociationSet Name="RefVALUATION_TIMING73" Association="FDAModel.Store.RefVALUATION_TIMING73">
+      <End Role="VALUATION_TIMING" EntitySet="VALUATION_TIMING" />
+      <End Role="FUND_VALUATION_TIMING" EntitySet="FUND_VALUATION_TIMING" />
+    </AssociationSet>
+    <AssociationSet Name="RefVehicalType" Association="FDAModel.Store.RefVehicalType">
+      <End Role="VEHICLE_TYPE" EntitySet="VEHICLE_TYPE" />
+      <End Role="UMBRELLA" EntitySet="UMBRELLA" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ASSET_MATCHING">
+    <Key>
+      <PropertyRef Name="FDW_ASSET_EXTERNAL_ID" />
+    </Key>
+    <Property Name="FDW_ASSET_EXTERNAL_ID" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="DESCRIPTION" Type="varchar" MaxLength="500" />
+    <Property Name="SEDOL" Type="varchar" MaxLength="50" />
+    <Property Name="CUSIP" Type="varchar" MaxLength="50" />
+    <Property Name="ISIN" Type="varchar" MaxLength="50" />
+    <Property Name="OTHER_CD" Type="varchar" MaxLength="50" />
+    <Property Name="CG_SYMBOL" Type="varchar" MaxLength="50" />
+    <Property Name="CURRENCY_CD" Type="varchar" MaxLength="3" />
+    <Property Name="COUNTRY_CD" Type="char" MaxLength="20" />
+    <Property Name="ASSET_CATEGORY_CD" Type="varchar" MaxLength="50" />
+    <Property Name="SUB_INDUSTRY_CD" Type="varchar" MaxLength="50" />
+    <Property Name="SOURCE" Type="varchar" MaxLength="50" />
+    <Property Name="REMOVE_IND" Type="char" MaxLength="1" />
+    <Property Name="ERROR_IND" Type="char" MaxLength="1" />
+    <Property Name="LOG_INTERFACE_STEP_ID" Type="numeric" Precision="15" />
+    <Property Name="FDA_CGSYMBOL_UPD_DATE" Type="datetime" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BENCHMARK">
+    <Key>
+      <PropertyRef Name="BENCHMARK_ID" />
+    </Key>
+    <Property Name="BENCHMARK_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="SHORT_NAME" Type="varchar" MaxLength="100" />
+    <Property Name="LONG_NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="REBALANCING_FREQUENCY_ID" Type="int" />
+    <Property Name="VALUATION_FREQUENCY_ID" Type="int" />
+    <Property Name="CURRENCY_ID" Type="int" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BENCHMARK_ASSOCIATION">
+    <Key>
+      <PropertyRef Name="FUND_BENCHMARK_ASSOCIATION_ID" />
+      <PropertyRef Name="VALID_FROM_DATE" />
+    </Key>
+    <Property Name="FUND_BENCHMARK_ASSOCIATION_ID" Type="int" Nullable="false" />
+    <Property Name="VALID_FROM_DATE" Type="datetime" Nullable="false" />
+    <Property Name="BENCHMARK_ID" Type="int" Nullable="false" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BENCHMARK_INDEX">
+    <Key>
+      <PropertyRef Name="BENCHMARK_ID" />
+      <PropertyRef Name="INDEX_ELEMENT_ID" />
+    </Key>
+    <Property Name="BENCHMARK_ID" Type="int" Nullable="false" />
+    <Property Name="INDEX_ELEMENT_ID" Type="int" Nullable="false" />
+    <Property Name="WEIGHT" Type="numeric" Nullable="false" Precision="15" Scale="5" />
+    <Property Name="CURRENCY_ID" Type="int" Nullable="false" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CALENDAR_EVENT_TYPE">
+    <Key>
+      <PropertyRef Name="CALENDAR_EVENT_TYPE_ID" />
+    </Key>
+    <Property Name="CALENDAR_EVENT_TYPE_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="COUNTRY">
+    <Key>
+      <PropertyRef Name="COUNTRY_ID" />
+    </Key>
+    <Property Name="COUNTRY_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ISO_CODE" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CURRENCY">
+    <Key>
+      <PropertyRef Name="CURRENCY_ID" />
+    </Key>
+    <Property Name="CURRENCY_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CUT_OFF_TIME">
+    <Key>
+      <PropertyRef Name="CUT_OFF_TIME_ID" />
+    </Key>
+    <Property Name="CUT_OFF_TIME_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DISTRIBUTION_FREQUENCY">
+    <Key>
+      <PropertyRef Name="DISTRIBUTION_FREQUENCY_ID" />
+    </Key>
+    <Property Name="DISTRIBUTION_FREQUENCY_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DISTRIBUTION_POLICY">
+    <Key>
+      <PropertyRef Name="DISTRIBUTION_POLICY_ID" />
+    </Key>
+    <Property Name="DISTRIBUTION_POLICY_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="DISTRIBUTING_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FILE_PROVIDER">
+    <Key>
+      <PropertyRef Name="PARTY_ROLE_ID" />
+    </Key>
+    <Property Name="PARTY_ROLE_ID" Type="int" Nullable="false" />
+    <Property Name="INFO_REQUIRED_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FISCAL_YEAR_END">
+    <Key>
+      <PropertyRef Name="FISCAL_YEAR_END_ID" />
+    </Key>
+    <Property Name="FISCAL_YEAR_END_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND">
+    <Key>
+      <PropertyRef Name="FUND_ID" />
+    </Key>
+    <Property Name="FUND_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="int" Nullable="false" />
+    <Property Name="ACRONYM" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="LEGAL_NAME" Type="varchar" MaxLength="150" />
+    <Property Name="SHORT_NAME" Type="varchar" MaxLength="100" />
+    <Property Name="PORTFOLIO_ACCOUNTING_ACCOUNT_ID" Type="varchar" MaxLength="50" />
+    <Property Name="LAUNCH_DATE" Type="datetime" />
+    <Property Name="TERMINATION_DATE" Type="datetime" />
+    <Property Name="INVESTMENT_OBJECTIVE_DESCRIPTION" Type="varchar" MaxLength="4000" />
+    <Property Name="INDIVIDUAL_SAVING_ACCOUNT_ELIGIBILITY_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="INVESTMENT_RESULT_TEXT" Type="varchar" MaxLength="200" />
+    <Property Name="EXTERNAL_CODE" Type="varchar" MaxLength="50" />
+    <Property Name="EXTERNAL_FEEDER_FUND_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="UMBRELLA_ID" Type="int" />
+    <Property Name="OPERATING_CURRENCY_ID" Type="int" />
+    <Property Name="BASE_CURRENCY_ID" Type="int" />
+    <Property Name="INVESTMENT_RESULT_BASE_CURRENCY_ID" Type="int" />
+    <Property Name="VALUATION_FREQUENCY_ID" Type="int" />
+    <Property Name="CUT_OFF_TIME_ID" Type="int" />
+    <Property Name="INVESTMENT_ADVISOR_ID" Type="int" />
+    <Property Name="IMA_SECTOR_ID" Type="int" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+    <Property Name="NAV_FILE_NAME_ID" Type="int" />
+    <Property Name="HOLDING_FILE_NAME_ID" Type="int" />
+    <Property Name="SUMMARY_FILE_NAME_ID" Type="int" />
+    <Property Name="FUND_STATUS" Type="int" />
+  </EntityType>
+  <EntityType Name="FUND_ASSET">
+    <Key>
+      <PropertyRef Name="FUND_ASSET_ID" />
+    </Key>
+    <Property Name="FUND_ASSET_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CG_CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FUND_SHARECLASS_ID" Type="int" Nullable="false" />
+    <Property Name="CURRENCY_ID" Type="int" Nullable="false" />
+    <Property Name="LAUNCH_DATE" Type="datetime" />
+    <Property Name="TERMINATION_DATE" Type="datetime" />
+    <Property Name="FDA_ACTIVATION_DATE" Type="datetime" />
+    <Property Name="FDA_VALIDATION_DATE" Type="datetime" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND_ASSET_IDENTIFIER">
+    <Key>
+      <PropertyRef Name="FUND_ASSET_ID" />
+      <PropertyRef Name="ASSET_ID_TYPE_ID" />
+      <PropertyRef Name="VALID_FROM_DATE" />
+    </Key>
+    <Property Name="FUND_ASSET_ID" Type="int" Nullable="false" />
+    <Property Name="ASSET_ID_TYPE_ID" Type="int" Nullable="false" />
+    <Property Name="VALID_FROM_DATE" Type="datetime" Nullable="false" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND_ASSET_IDENTIFIER_TYPE">
+    <Key>
+      <PropertyRef Name="ASSET_ID_TYPE_ID" />
+    </Key>
+    <Property Name="ASSET_ID_TYPE_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND_ASSET_PUBLICATION_MEDIA">
+    <Key>
+      <PropertyRef Name="FUND_ASSET_ID" />
+      <PropertyRef Name="PUBLICATION_MEDIA_ID" />
+    </Key>
+    <Property Name="FUND_ASSET_ID" Type="int" Nullable="false" />
+    <Property Name="PUBLICATION_MEDIA_ID" Type="int" Nullable="false" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND_ASSET_RATING">
+    <Key>
+      <PropertyRef Name="FUND_ASSET_ID" />
+      <PropertyRef Name="VALID_FROM_DATE" />
+      <PropertyRef Name="RATING_ID" />
+    </Key>
+    <Property Name="FUND_ASSET_ID" Type="int" Nullable="false" />
+    <Property Name="VALID_FROM_DATE" Type="datetime" Nullable="false" />
+    <Property Name="RATING_ID" Type="int" Nullable="false" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND_BENCHMARK_ASSOCIATION">
+    <Key>
+      <PropertyRef Name="FUND_BENCHMARK_ASSOCIATION_ID" />
+    </Key>
+    <Property Name="FUND_BENCHMARK_ASSOCIATION_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FUND_ID" Type="int" Nullable="false" />
+    <Property Name="DESCRIPTION" Type="varchar" MaxLength="200" />
+    <Property Name="FUND_BENCHMARK_ASSOCIATION_TYPE_ID" Type="int" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND_BENCHMARK_ASSOCIATION_TYPE">
+    <Key>
+      <PropertyRef Name="FUND_BENCHMARK_ASSOCIATION_TYPE_ID" />
+    </Key>
+    <Property Name="FUND_BENCHMARK_ASSOCIATION_TYPE_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND_CALENDAR_EVENT">
+    <Key>
+      <PropertyRef Name="FUND_ID" />
+      <PropertyRef Name="CALENDAR_EVENT_TYPE_ID" />
+      <PropertyRef Name="EVENT_DATE" />
+    </Key>
+    <Property Name="FUND_ID" Type="int" Nullable="false" />
+    <Property Name="CALENDAR_EVENT_TYPE_ID" Type="int" Nullable="false" />
+    <Property Name="EVENT_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND_GROUPING">
+    <Key>
+      <PropertyRef Name="FUND_ID" />
+      <PropertyRef Name="GROUP_USAGE_ID" />
+      <PropertyRef Name="GROUP_TYPE_ID" />
+    </Key>
+    <Property Name="FUND_ID" Type="int" Nullable="false" />
+    <Property Name="GROUP_USAGE_ID" Type="int" Nullable="false" />
+    <Property Name="GROUP_TYPE_ID" Type="int" Nullable="false" />
+    <Property Name="ORDER_NUMBER" Type="numeric" Nullable="false" Precision="15" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND_PAYMENT_CURRENCY">
+    <Key>
+      <PropertyRef Name="FUND_ID" />
+      <PropertyRef Name="CURRENCY_ID" />
+    </Key>
+    <Property Name="FUND_ID" Type="int" Nullable="false" />
+    <Property Name="CURRENCY_ID" Type="int" Nullable="false" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND_PORTFOLIO_MANAGER">
+    <Key>
+      <PropertyRef Name="FUND_ID" />
+      <PropertyRef Name="PORTFOLIO_MANAGER_ID" />
+    </Key>
+    <Property Name="FUND_ID" Type="int" Nullable="false" />
+    <Property Name="PORTFOLIO_MANAGER_ID" Type="int" Nullable="false" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND_REGISTERED_COUNTRY">
+    <Key>
+      <PropertyRef Name="FUND_ID" />
+      <PropertyRef Name="COUNTRY_ID" />
+    </Key>
+    <Property Name="FUND_ID" Type="int" Nullable="false" />
+    <Property Name="COUNTRY_ID" Type="int" Nullable="false" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND_REPORTING_CURRENCY">
+    <Key>
+      <PropertyRef Name="FUND_ID" />
+      <PropertyRef Name="CURRENCY_ID" />
+    </Key>
+    <Property Name="FUND_ID" Type="int" Nullable="false" />
+    <Property Name="CURRENCY_ID" Type="int" Nullable="false" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND_SHARECLASS">
+    <Key>
+      <PropertyRef Name="FUND_SHARECLASS_ID" />
+    </Key>
+    <Property Name="FUND_SHARECLASS_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SHARECLASS_ID" Type="int" Nullable="false" />
+    <Property Name="FUND_ID" Type="int" Nullable="false" />
+    <Property Name="LAUNCH_DATE" Type="datetime" />
+    <Property Name="TERMINATION_DATE" Type="datetime" />
+    <Property Name="WEB_PUBLISHING_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="BASE_SHARECLASS_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="RELATED_FUND_SHARECLASS_ID" Type="int" />
+    <Property Name="SHARECLASS_EXPLANATION_TEXT" Type="varchar" MaxLength="4000" />
+    <Property Name="DISTRIBUTION_POLICY_ID" Type="int" />
+    <Property Name="DISTRIBUTION_FREQUENCY_ID" Type="int" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND_SHARECLASS_FEATURE">
+    <Key>
+      <PropertyRef Name="FUND_SHARECLASS_ID" />
+      <PropertyRef Name="FUND_SHARECLASS_FEATURE_TYPE_ID" />
+    </Key>
+    <Property Name="FUND_SHARECLASS_ID" Type="int" Nullable="false" />
+    <Property Name="FUND_SHARECLASS_FEATURE_TYPE_ID" Type="int" Nullable="false" />
+    <Property Name="FEATURE_TEXT" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND_SHARECLASS_FEATURE_TYPE">
+    <Key>
+      <PropertyRef Name="FUND_SHARECLASS_FEATURE_TYPE_ID" />
+    </Key>
+    <Property Name="FUND_SHARECLASS_FEATURE_TYPE_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND_SHARECLASS_MANAGEMENT_FEE">
+    <Key>
+      <PropertyRef Name="FUND_SHARECLASS_ID" />
+      <PropertyRef Name="VALID_FROM_DATE" />
+    </Key>
+    <Property Name="FUND_SHARECLASS_ID" Type="int" Nullable="false" />
+    <Property Name="VALID_FROM_DATE" Type="datetime" Nullable="false" />
+    <Property Name="PERCENTAGE" Type="numeric" Precision="4" Scale="3" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FUND_VALUATION_TIMING">
+    <Key>
+      <PropertyRef Name="FUND_ID" />
+      <PropertyRef Name="FUND_VALUATION_TIMING_VALID_FROM_DATE" />
+    </Key>
+    <Property Name="FUND_ID" Type="int" Nullable="false" />
+    <Property Name="FUND_VALUATION_TIMING_VALID_FROM_DATE" Type="datetime" Nullable="false" />
+    <Property Name="VALUATION_TIMING_ID" Type="int" Nullable="false" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GROUP_TYPE">
+    <Key>
+      <PropertyRef Name="GROUP_TYPE_ID" />
+    </Key>
+    <Property Name="GROUP_TYPE_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GROUP_USAGE">
+    <Key>
+      <PropertyRef Name="GROUP_USAGE_ID" />
+    </Key>
+    <Property Name="GROUP_USAGE_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GROUPING">
+    <Key>
+      <PropertyRef Name="GROUP_USAGE_ID" />
+      <PropertyRef Name="GROUP_TYPE_ID" />
+    </Key>
+    <Property Name="GROUP_USAGE_ID" Type="int" Nullable="false" />
+    <Property Name="GROUP_TYPE_ID" Type="int" Nullable="false" />
+    <Property Name="ORDER_NUMBER" Type="numeric" Nullable="false" Precision="15" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HOLDING_FILE_NAME">
+    <Key>
+      <PropertyRef Name="HOLDING_FILE_NAME_ID" />
+    </Key>
+    <Property Name="HOLDING_FILE_NAME_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="IMA_SECTOR">
+    <Key>
+      <PropertyRef Name="IMA_SECTOR_ID" />
+    </Key>
+    <Property Name="IMA_SECTOR_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="INDEX_ELEMENT">
+    <Key>
+      <PropertyRef Name="INDEX_ELEMENT_ID" />
+    </Key>
+    <Property Name="INDEX_ELEMENT_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="INDEX_TYPE_ID" Type="int" Nullable="false" />
+    <Property Name="INDEX_VARIANT_TYPE_ID" Type="int" Nullable="false" />
+    <Property Name="INDEX_PROVIDER_ID" Type="int" Nullable="false" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="INDEX_TYPE">
+    <Key>
+      <PropertyRef Name="INDEX_TYPE_ID" />
+    </Key>
+    <Property Name="INDEX_TYPE_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="INDEX_VARIANT_TYPE">
+    <Key>
+      <PropertyRef Name="INDEX_VARIANT_TYPE_ID" />
+    </Key>
+    <Property Name="INDEX_VARIANT_TYPE_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NAV_FILE_NAME">
+    <Key>
+      <PropertyRef Name="NAV_FILE_NAME_ID" />
+    </Key>
+    <Property Name="NAV_FILE_NAME_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PARTY">
+    <Key>
+      <PropertyRef Name="PARTY_ID" />
+    </Key>
+    <Property Name="PARTY_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PARTY_ROLE">
+    <Key>
+      <PropertyRef Name="PARTY_ROLE_ID" />
+    </Key>
+    <Property Name="PARTY_ROLE_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PARTY_ID" Type="int" Nullable="false" />
+    <Property Name="PARTY_ROLE_TYPE_ID" Type="int" Nullable="false" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PARTY_ROLE_TYPE">
+    <Key>
+      <PropertyRef Name="PARTY_ROLE_TYPE_ID" />
+    </Key>
+    <Property Name="PARTY_ROLE_TYPE_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="FDA_FDW_PREFIX_CODE" Type="varchar" MaxLength="10" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RATING">
+    <Key>
+      <PropertyRef Name="RATING_ID" />
+    </Key>
+    <Property Name="RATING_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="RATING_PROVIDER_ID" Type="int" Nullable="false" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="REBALANCING_FREQUENCY">
+    <Key>
+      <PropertyRef Name="REBALANCING_FREQUENCY_ID" />
+    </Key>
+    <Property Name="REBALANCING_FREQUENCY_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SECURITY_GROUP">
+    <Key>
+      <PropertyRef Name="SECURITY_GROUP_ID" />
+    </Key>
+    <Property Name="SECURITY_GROUP_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NAME" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SECURITY_GROUP_ROLE">
+    <Key>
+      <PropertyRef Name="SECURITY_GROUP_ROLE_ID" />
+    </Key>
+    <Property Name="SECURITY_GROUP_ROLE_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SECURITY_GROUP_ID" Type="int" Nullable="false" />
+    <Property Name="SECURITY_GROUP_ROLE_TYPE_ID" Type="int" Nullable="false" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SECURITY_GROUP_ROLE_TYPE">
+    <Key>
+      <PropertyRef Name="SECURITY_GROUP_ROLE_TYPE_ID" />
+    </Key>
+    <Property Name="SECURITY_GROUP_ROLE_TYPE_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NAME" Type="varchar" MaxLength="50" />
+    <Property Name="DESCRIPTION" Type="varchar" MaxLength="100" />
+    <Property Name="FDA_FDW_PREFIX_CODE" Type="varchar" MaxLength="10" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SHARECLASS">
+    <Key>
+      <PropertyRef Name="SHARECLASS_ID" />
+    </Key>
+    <Property Name="SHARECLASS_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="HEDGE_CURRENCY_ID" Type="int" />
+    <Property Name="DEFAULT_EXPLANATION_TEXT" Type="varchar" MaxLength="4000" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SUMMARY_FILE_NAME">
+    <Key>
+      <PropertyRef Name="SUMMARY_FILE_NAME_ID" />
+    </Key>
+    <Property Name="SUMMARY_FILE_NAME_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UMBRELLA">
+    <Key>
+      <PropertyRef Name="UMBRELLA_ID" />
+    </Key>
+    <Property Name="UMBRELLA_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="LEGAL_NAME" Type="varchar" MaxLength="100" />
+    <Property Name="SHORT_NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="DOMICILE_COUNTRY_ID" Type="int" />
+    <Property Name="PAYING_AGENT_ID" Type="int" />
+    <Property Name="FILE_PROVIDER_ID" Type="int" />
+    <Property Name="CUSTODIAN_ID" Type="int" />
+    <Property Name="LEGAL_ADVISOR_ID" Type="int" />
+    <Property Name="ADMINISTRATIVE_MANAGER_ID" Type="int" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+    <Property Name="VEHICLE_TYPE_ID" Type="int" />
+    <Property Name="FISCAL_YEAR_END_ID" Type="int" />
+    <Property Name="STATUS_UPD_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VALUATION_FREQUENCY">
+    <Key>
+      <PropertyRef Name="VALUATION_FREQUENCY_ID" />
+    </Key>
+    <Property Name="VALUATION_FREQUENCY_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VALUATION_TIMING">
+    <Key>
+      <PropertyRef Name="VALUATION_TIMING_ID" />
+    </Key>
+    <Property Name="VALUATION_TIMING_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VEHICLE_TYPE">
+    <Key>
+      <PropertyRef Name="VEHICLE_TYPE_ID" />
+    </Key>
+    <Property Name="VEHICLE_TYPE_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ACTIVE_IND" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FDA_USER_CODE" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FDA_LAST_UPD_DATE" Type="datetime" Nullable="false" />
+    <Property Name="FDA_CREATION_DATE" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="RefBENCHMARK62">
+    <End Role="BENCHMARK" Type="FDAModel.Store.BENCHMARK" Multiplicity="1" />
+    <End Role="BENCHMARK_ASSOCIATION" Type="FDAModel.Store.BENCHMARK_ASSOCIATION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BENCHMARK">
+        <PropertyRef Name="BENCHMARK_ID" />
+      </Principal>
+      <Dependent Role="BENCHMARK_ASSOCIATION">
+        <PropertyRef Name="BENCHMARK_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefBENCHMARK69">
+    <End Role="BENCHMARK" Type="FDAModel.Store.BENCHMARK" Multiplicity="1" />
+    <End Role="BENCHMARK_INDEX" Type="FDAModel.Store.BENCHMARK_INDEX" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BENCHMARK">
+        <PropertyRef Name="BENCHMARK_ID" />
+      </Principal>
+      <Dependent Role="BENCHMARK_INDEX">
+        <PropertyRef Name="BENCHMARK_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefCALENDAR_EVENT_TYPE41">
+    <End Role="CALENDAR_EVENT_TYPE" Type="FDAModel.Store.CALENDAR_EVENT_TYPE" Multiplicity="1" />
+    <End Role="FUND_CALENDAR_EVENT" Type="FDAModel.Store.FUND_CALENDAR_EVENT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CALENDAR_EVENT_TYPE">
+        <PropertyRef Name="CALENDAR_EVENT_TYPE_ID" />
+      </Principal>
+      <Dependent Role="FUND_CALENDAR_EVENT">
+        <PropertyRef Name="CALENDAR_EVENT_TYPE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefCOUNTRY56">
+    <End Role="COUNTRY" Type="FDAModel.Store.COUNTRY" Multiplicity="0..1" />
+    <End Role="UMBRELLA" Type="FDAModel.Store.UMBRELLA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="COUNTRY">
+        <PropertyRef Name="COUNTRY_ID" />
+      </Principal>
+      <Dependent Role="UMBRELLA">
+        <PropertyRef Name="DOMICILE_COUNTRY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefCOUNTRY58">
+    <End Role="COUNTRY" Type="FDAModel.Store.COUNTRY" Multiplicity="1" />
+    <End Role="FUND_REGISTERED_COUNTRY" Type="FDAModel.Store.FUND_REGISTERED_COUNTRY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="COUNTRY">
+        <PropertyRef Name="COUNTRY_ID" />
+      </Principal>
+      <Dependent Role="FUND_REGISTERED_COUNTRY">
+        <PropertyRef Name="COUNTRY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefCURRENCY13">
+    <End Role="CURRENCY" Type="FDAModel.Store.CURRENCY" Multiplicity="1" />
+    <End Role="FUND_ASSET" Type="FDAModel.Store.FUND_ASSET" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURRENCY">
+        <PropertyRef Name="CURRENCY_ID" />
+      </Principal>
+      <Dependent Role="FUND_ASSET">
+        <PropertyRef Name="CURRENCY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefCURRENCY230">
+    <End Role="CURRENCY" Type="FDAModel.Store.CURRENCY" Multiplicity="1" />
+    <End Role="FUND_PAYMENT_CURRENCY" Type="FDAModel.Store.FUND_PAYMENT_CURRENCY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURRENCY">
+        <PropertyRef Name="CURRENCY_ID" />
+      </Principal>
+      <Dependent Role="FUND_PAYMENT_CURRENCY">
+        <PropertyRef Name="CURRENCY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefCURRENCY234">
+    <End Role="CURRENCY" Type="FDAModel.Store.CURRENCY" Multiplicity="1" />
+    <End Role="BENCHMARK_INDEX" Type="FDAModel.Store.BENCHMARK_INDEX" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURRENCY">
+        <PropertyRef Name="CURRENCY_ID" />
+      </Principal>
+      <Dependent Role="BENCHMARK_INDEX">
+        <PropertyRef Name="CURRENCY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefCURRENCY28">
+    <End Role="CURRENCY" Type="FDAModel.Store.CURRENCY" Multiplicity="0..1" />
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURRENCY">
+        <PropertyRef Name="CURRENCY_ID" />
+      </Principal>
+      <Dependent Role="FUND">
+        <PropertyRef Name="BASE_CURRENCY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefCURRENCY29">
+    <End Role="CURRENCY" Type="FDAModel.Store.CURRENCY" Multiplicity="0..1" />
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURRENCY">
+        <PropertyRef Name="CURRENCY_ID" />
+      </Principal>
+      <Dependent Role="FUND">
+        <PropertyRef Name="OPERATING_CURRENCY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefCURRENCY39">
+    <End Role="CURRENCY" Type="FDAModel.Store.CURRENCY" Multiplicity="0..1" />
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURRENCY">
+        <PropertyRef Name="CURRENCY_ID" />
+      </Principal>
+      <Dependent Role="FUND">
+        <PropertyRef Name="INVESTMENT_RESULT_BASE_CURRENCY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefCURRENCY45">
+    <End Role="CURRENCY" Type="FDAModel.Store.CURRENCY" Multiplicity="1" />
+    <End Role="FUND_REPORTING_CURRENCY" Type="FDAModel.Store.FUND_REPORTING_CURRENCY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURRENCY">
+        <PropertyRef Name="CURRENCY_ID" />
+      </Principal>
+      <Dependent Role="FUND_REPORTING_CURRENCY">
+        <PropertyRef Name="CURRENCY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefCURRENCY64">
+    <End Role="CURRENCY" Type="FDAModel.Store.CURRENCY" Multiplicity="0..1" />
+    <End Role="BENCHMARK" Type="FDAModel.Store.BENCHMARK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURRENCY">
+        <PropertyRef Name="CURRENCY_ID" />
+      </Principal>
+      <Dependent Role="BENCHMARK">
+        <PropertyRef Name="CURRENCY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefCURRENCY75">
+    <End Role="CURRENCY" Type="FDAModel.Store.CURRENCY" Multiplicity="0..1" />
+    <End Role="SHARECLASS" Type="FDAModel.Store.SHARECLASS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURRENCY">
+        <PropertyRef Name="CURRENCY_ID" />
+      </Principal>
+      <Dependent Role="SHARECLASS">
+        <PropertyRef Name="HEDGE_CURRENCY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefCUT_OFF_TIME63">
+    <End Role="CUT_OFF_TIME" Type="FDAModel.Store.CUT_OFF_TIME" Multiplicity="0..1" />
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CUT_OFF_TIME">
+        <PropertyRef Name="CUT_OFF_TIME_ID" />
+      </Principal>
+      <Dependent Role="FUND">
+        <PropertyRef Name="CUT_OFF_TIME_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefDISTRIBUTION_FREQUENCY247">
+    <End Role="DISTRIBUTION_FREQUENCY" Type="FDAModel.Store.DISTRIBUTION_FREQUENCY" Multiplicity="0..1" />
+    <End Role="FUND_SHARECLASS" Type="FDAModel.Store.FUND_SHARECLASS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DISTRIBUTION_FREQUENCY">
+        <PropertyRef Name="DISTRIBUTION_FREQUENCY_ID" />
+      </Principal>
+      <Dependent Role="FUND_SHARECLASS">
+        <PropertyRef Name="DISTRIBUTION_FREQUENCY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefDISTRIBUTION_POLICY233">
+    <End Role="DISTRIBUTION_POLICY" Type="FDAModel.Store.DISTRIBUTION_POLICY" Multiplicity="0..1" />
+    <End Role="FUND_SHARECLASS" Type="FDAModel.Store.FUND_SHARECLASS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DISTRIBUTION_POLICY">
+        <PropertyRef Name="DISTRIBUTION_POLICY_ID" />
+      </Principal>
+      <Dependent Role="FUND_SHARECLASS">
+        <PropertyRef Name="DISTRIBUTION_POLICY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFILE_PROVIDER157">
+    <End Role="FILE_PROVIDER" Type="FDAModel.Store.FILE_PROVIDER" Multiplicity="0..1" />
+    <End Role="UMBRELLA" Type="FDAModel.Store.UMBRELLA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FILE_PROVIDER">
+        <PropertyRef Name="PARTY_ROLE_ID" />
+      </Principal>
+      <Dependent Role="UMBRELLA">
+        <PropertyRef Name="FILE_PROVIDER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFISCALYEAREND">
+    <End Role="FISCAL_YEAR_END" Type="FDAModel.Store.FISCAL_YEAR_END" Multiplicity="0..1" />
+    <End Role="UMBRELLA" Type="FDAModel.Store.UMBRELLA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FISCAL_YEAR_END">
+        <PropertyRef Name="FISCAL_YEAR_END_ID" />
+      </Principal>
+      <Dependent Role="UMBRELLA">
+        <PropertyRef Name="FISCAL_YEAR_END_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND_ASSET_IDENTIFIER_TYPE37">
+    <End Role="FUND_ASSET_IDENTIFIER_TYPE" Type="FDAModel.Store.FUND_ASSET_IDENTIFIER_TYPE" Multiplicity="1" />
+    <End Role="FUND_ASSET_IDENTIFIER" Type="FDAModel.Store.FUND_ASSET_IDENTIFIER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND_ASSET_IDENTIFIER_TYPE">
+        <PropertyRef Name="ASSET_ID_TYPE_ID" />
+      </Principal>
+      <Dependent Role="FUND_ASSET_IDENTIFIER">
+        <PropertyRef Name="ASSET_ID_TYPE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND_ASSET131">
+    <End Role="FUND_ASSET" Type="FDAModel.Store.FUND_ASSET" Multiplicity="1" />
+    <End Role="FUND_ASSET_RATING" Type="FDAModel.Store.FUND_ASSET_RATING" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND_ASSET">
+        <PropertyRef Name="FUND_ASSET_ID" />
+      </Principal>
+      <Dependent Role="FUND_ASSET_RATING">
+        <PropertyRef Name="FUND_ASSET_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND_ASSET36">
+    <End Role="FUND_ASSET" Type="FDAModel.Store.FUND_ASSET" Multiplicity="1" />
+    <End Role="FUND_ASSET_IDENTIFIER" Type="FDAModel.Store.FUND_ASSET_IDENTIFIER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND_ASSET">
+        <PropertyRef Name="FUND_ASSET_ID" />
+      </Principal>
+      <Dependent Role="FUND_ASSET_IDENTIFIER">
+        <PropertyRef Name="FUND_ASSET_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND_ASSET78">
+    <End Role="FUND_ASSET" Type="FDAModel.Store.FUND_ASSET" Multiplicity="1" />
+    <End Role="FUND_ASSET_PUBLICATION_MEDIA" Type="FDAModel.Store.FUND_ASSET_PUBLICATION_MEDIA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND_ASSET">
+        <PropertyRef Name="FUND_ASSET_ID" />
+      </Principal>
+      <Dependent Role="FUND_ASSET_PUBLICATION_MEDIA">
+        <PropertyRef Name="FUND_ASSET_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND_BENCHMARK_ASSOCIATION_TYPE216">
+    <End Role="FUND_BENCHMARK_ASSOCIATION_TYPE" Type="FDAModel.Store.FUND_BENCHMARK_ASSOCIATION_TYPE" Multiplicity="0..1" />
+    <End Role="FUND_BENCHMARK_ASSOCIATION" Type="FDAModel.Store.FUND_BENCHMARK_ASSOCIATION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND_BENCHMARK_ASSOCIATION_TYPE">
+        <PropertyRef Name="FUND_BENCHMARK_ASSOCIATION_TYPE_ID" />
+      </Principal>
+      <Dependent Role="FUND_BENCHMARK_ASSOCIATION">
+        <PropertyRef Name="FUND_BENCHMARK_ASSOCIATION_TYPE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND_BENCHMARK_ASSOCIATION174">
+    <End Role="FUND_BENCHMARK_ASSOCIATION" Type="FDAModel.Store.FUND_BENCHMARK_ASSOCIATION" Multiplicity="1" />
+    <End Role="BENCHMARK_ASSOCIATION" Type="FDAModel.Store.BENCHMARK_ASSOCIATION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND_BENCHMARK_ASSOCIATION">
+        <PropertyRef Name="FUND_BENCHMARK_ASSOCIATION_ID" />
+      </Principal>
+      <Dependent Role="BENCHMARK_ASSOCIATION">
+        <PropertyRef Name="FUND_BENCHMARK_ASSOCIATION_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND_SHARECLASS_FEATURE_TYPE151">
+    <End Role="FUND_SHARECLASS_FEATURE_TYPE" Type="FDAModel.Store.FUND_SHARECLASS_FEATURE_TYPE" Multiplicity="1" />
+    <End Role="FUND_SHARECLASS_FEATURE" Type="FDAModel.Store.FUND_SHARECLASS_FEATURE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND_SHARECLASS_FEATURE_TYPE">
+        <PropertyRef Name="FUND_SHARECLASS_FEATURE_TYPE_ID" />
+      </Principal>
+      <Dependent Role="FUND_SHARECLASS_FEATURE">
+        <PropertyRef Name="FUND_SHARECLASS_FEATURE_TYPE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND_SHARECLASS12">
+    <End Role="FUND_SHARECLASS" Type="FDAModel.Store.FUND_SHARECLASS" Multiplicity="1" />
+    <End Role="FUND_ASSET" Type="FDAModel.Store.FUND_ASSET" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND_SHARECLASS">
+        <PropertyRef Name="FUND_SHARECLASS_ID" />
+      </Principal>
+      <Dependent Role="FUND_ASSET">
+        <PropertyRef Name="FUND_SHARECLASS_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND_SHARECLASS149">
+    <End Role="FUND_SHARECLASS" Type="FDAModel.Store.FUND_SHARECLASS" Multiplicity="0..1" />
+    <End Role="FUND_SHARECLASS1" Type="FDAModel.Store.FUND_SHARECLASS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND_SHARECLASS">
+        <PropertyRef Name="FUND_SHARECLASS_ID" />
+      </Principal>
+      <Dependent Role="FUND_SHARECLASS1">
+        <PropertyRef Name="RELATED_FUND_SHARECLASS_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND_SHARECLASS150">
+    <End Role="FUND_SHARECLASS" Type="FDAModel.Store.FUND_SHARECLASS" Multiplicity="1" />
+    <End Role="FUND_SHARECLASS_FEATURE" Type="FDAModel.Store.FUND_SHARECLASS_FEATURE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND_SHARECLASS">
+        <PropertyRef Name="FUND_SHARECLASS_ID" />
+      </Principal>
+      <Dependent Role="FUND_SHARECLASS_FEATURE">
+        <PropertyRef Name="FUND_SHARECLASS_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND_SHARECLASS79">
+    <End Role="FUND_SHARECLASS" Type="FDAModel.Store.FUND_SHARECLASS" Multiplicity="1" />
+    <End Role="FUND_SHARECLASS_MANAGEMENT_FEE" Type="FDAModel.Store.FUND_SHARECLASS_MANAGEMENT_FEE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND_SHARECLASS">
+        <PropertyRef Name="FUND_SHARECLASS_ID" />
+      </Principal>
+      <Dependent Role="FUND_SHARECLASS_MANAGEMENT_FEE">
+        <PropertyRef Name="FUND_SHARECLASS_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND173">
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="1" />
+    <End Role="FUND_BENCHMARK_ASSOCIATION" Type="FDAModel.Store.FUND_BENCHMARK_ASSOCIATION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND">
+        <PropertyRef Name="FUND_ID" />
+      </Principal>
+      <Dependent Role="FUND_BENCHMARK_ASSOCIATION">
+        <PropertyRef Name="FUND_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND188">
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="1" />
+    <End Role="FUND_PORTFOLIO_MANAGER" Type="FDAModel.Store.FUND_PORTFOLIO_MANAGER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND">
+        <PropertyRef Name="FUND_ID" />
+      </Principal>
+      <Dependent Role="FUND_PORTFOLIO_MANAGER">
+        <PropertyRef Name="FUND_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND229">
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="1" />
+    <End Role="FUND_PAYMENT_CURRENCY" Type="FDAModel.Store.FUND_PAYMENT_CURRENCY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND">
+        <PropertyRef Name="FUND_ID" />
+      </Principal>
+      <Dependent Role="FUND_PAYMENT_CURRENCY">
+        <PropertyRef Name="FUND_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND4">
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="1" />
+    <End Role="FUND_GROUPING" Type="FDAModel.Store.FUND_GROUPING" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND">
+        <PropertyRef Name="FUND_ID" />
+      </Principal>
+      <Dependent Role="FUND_GROUPING">
+        <PropertyRef Name="FUND_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND40">
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="1" />
+    <End Role="FUND_CALENDAR_EVENT" Type="FDAModel.Store.FUND_CALENDAR_EVENT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND">
+        <PropertyRef Name="FUND_ID" />
+      </Principal>
+      <Dependent Role="FUND_CALENDAR_EVENT">
+        <PropertyRef Name="FUND_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND44">
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="1" />
+    <End Role="FUND_REPORTING_CURRENCY" Type="FDAModel.Store.FUND_REPORTING_CURRENCY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND">
+        <PropertyRef Name="FUND_ID" />
+      </Principal>
+      <Dependent Role="FUND_REPORTING_CURRENCY">
+        <PropertyRef Name="FUND_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND57">
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="1" />
+    <End Role="FUND_REGISTERED_COUNTRY" Type="FDAModel.Store.FUND_REGISTERED_COUNTRY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND">
+        <PropertyRef Name="FUND_ID" />
+      </Principal>
+      <Dependent Role="FUND_REGISTERED_COUNTRY">
+        <PropertyRef Name="FUND_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND72">
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="1" />
+    <End Role="FUND_VALUATION_TIMING" Type="FDAModel.Store.FUND_VALUATION_TIMING" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND">
+        <PropertyRef Name="FUND_ID" />
+      </Principal>
+      <Dependent Role="FUND_VALUATION_TIMING">
+        <PropertyRef Name="FUND_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefFUND8">
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="1" />
+    <End Role="FUND_SHARECLASS" Type="FDAModel.Store.FUND_SHARECLASS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUND">
+        <PropertyRef Name="FUND_ID" />
+      </Principal>
+      <Dependent Role="FUND_SHARECLASS">
+        <PropertyRef Name="FUND_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefGROUP_TYPE2">
+    <End Role="GROUP_TYPE" Type="FDAModel.Store.GROUP_TYPE" Multiplicity="1" />
+    <End Role="GROUPING" Type="FDAModel.Store.GROUPING" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GROUP_TYPE">
+        <PropertyRef Name="GROUP_TYPE_ID" />
+      </Principal>
+      <Dependent Role="GROUPING">
+        <PropertyRef Name="GROUP_TYPE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefGROUP_USAGE1">
+    <End Role="GROUP_USAGE" Type="FDAModel.Store.GROUP_USAGE" Multiplicity="1" />
+    <End Role="GROUPING" Type="FDAModel.Store.GROUPING" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GROUP_USAGE">
+        <PropertyRef Name="GROUP_USAGE_ID" />
+      </Principal>
+      <Dependent Role="GROUPING">
+        <PropertyRef Name="GROUP_USAGE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefGROUPING3">
+    <End Role="GROUPING" Type="FDAModel.Store.GROUPING" Multiplicity="1" />
+    <End Role="FUND_GROUPING" Type="FDAModel.Store.FUND_GROUPING" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GROUPING">
+        <PropertyRef Name="GROUP_USAGE_ID" />
+        <PropertyRef Name="GROUP_TYPE_ID" />
+      </Principal>
+      <Dependent Role="FUND_GROUPING">
+        <PropertyRef Name="GROUP_USAGE_ID" />
+        <PropertyRef Name="GROUP_TYPE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefHOLDING_FILE_NAME">
+    <End Role="HOLDING_FILE_NAME" Type="FDAModel.Store.HOLDING_FILE_NAME" Multiplicity="0..1" />
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOLDING_FILE_NAME">
+        <PropertyRef Name="HOLDING_FILE_NAME_ID" />
+      </Principal>
+      <Dependent Role="FUND">
+        <PropertyRef Name="HOLDING_FILE_NAME_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefIMA_SECTOR189">
+    <End Role="IMA_SECTOR" Type="FDAModel.Store.IMA_SECTOR" Multiplicity="0..1" />
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="IMA_SECTOR">
+        <PropertyRef Name="IMA_SECTOR_ID" />
+      </Principal>
+      <Dependent Role="FUND">
+        <PropertyRef Name="IMA_SECTOR_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefINDEX_ELEMENT70">
+    <End Role="INDEX_ELEMENT" Type="FDAModel.Store.INDEX_ELEMENT" Multiplicity="1" />
+    <End Role="BENCHMARK_INDEX" Type="FDAModel.Store.BENCHMARK_INDEX" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="INDEX_ELEMENT">
+        <PropertyRef Name="INDEX_ELEMENT_ID" />
+      </Principal>
+      <Dependent Role="BENCHMARK_INDEX">
+        <PropertyRef Name="INDEX_ELEMENT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefINDEX_TYPE66">
+    <End Role="INDEX_TYPE" Type="FDAModel.Store.INDEX_TYPE" Multiplicity="1" />
+    <End Role="INDEX_ELEMENT" Type="FDAModel.Store.INDEX_ELEMENT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="INDEX_TYPE">
+        <PropertyRef Name="INDEX_TYPE_ID" />
+      </Principal>
+      <Dependent Role="INDEX_ELEMENT">
+        <PropertyRef Name="INDEX_TYPE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefINDEX_VARIANT_TYPE67">
+    <End Role="INDEX_VARIANT_TYPE" Type="FDAModel.Store.INDEX_VARIANT_TYPE" Multiplicity="1" />
+    <End Role="INDEX_ELEMENT" Type="FDAModel.Store.INDEX_ELEMENT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="INDEX_VARIANT_TYPE">
+        <PropertyRef Name="INDEX_VARIANT_TYPE_ID" />
+      </Principal>
+      <Dependent Role="INDEX_ELEMENT">
+        <PropertyRef Name="INDEX_VARIANT_TYPE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefNAV_FILE_NAME">
+    <End Role="NAV_FILE_NAME" Type="FDAModel.Store.NAV_FILE_NAME" Multiplicity="0..1" />
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NAV_FILE_NAME">
+        <PropertyRef Name="NAV_FILE_NAME_ID" />
+      </Principal>
+      <Dependent Role="FUND">
+        <PropertyRef Name="NAV_FILE_NAME_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefPARTY_ROLE_TYPE320">
+    <End Role="PARTY_ROLE_TYPE" Type="FDAModel.Store.PARTY_ROLE_TYPE" Multiplicity="1" />
+    <End Role="PARTY_ROLE" Type="FDAModel.Store.PARTY_ROLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARTY_ROLE_TYPE">
+        <PropertyRef Name="PARTY_ROLE_TYPE_ID" />
+      </Principal>
+      <Dependent Role="PARTY_ROLE">
+        <PropertyRef Name="PARTY_ROLE_TYPE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefPARTY_ROLE322">
+    <End Role="PARTY_ROLE" Type="FDAModel.Store.PARTY_ROLE" Multiplicity="1" />
+    <End Role="FILE_PROVIDER" Type="FDAModel.Store.FILE_PROVIDER" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="PARTY_ROLE">
+        <PropertyRef Name="PARTY_ROLE_ID" />
+      </Principal>
+      <Dependent Role="FILE_PROVIDER">
+        <PropertyRef Name="PARTY_ROLE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefPARTY_ROLE323">
+    <End Role="PARTY_ROLE" Type="FDAModel.Store.PARTY_ROLE" Multiplicity="1" />
+    <End Role="INDEX_ELEMENT" Type="FDAModel.Store.INDEX_ELEMENT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARTY_ROLE">
+        <PropertyRef Name="PARTY_ROLE_ID" />
+      </Principal>
+      <Dependent Role="INDEX_ELEMENT">
+        <PropertyRef Name="INDEX_PROVIDER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefPARTY_ROLE324">
+    <End Role="PARTY_ROLE" Type="FDAModel.Store.PARTY_ROLE" Multiplicity="1" />
+    <End Role="RATING" Type="FDAModel.Store.RATING" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARTY_ROLE">
+        <PropertyRef Name="PARTY_ROLE_ID" />
+      </Principal>
+      <Dependent Role="RATING">
+        <PropertyRef Name="RATING_PROVIDER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefPARTY_ROLE325">
+    <End Role="PARTY_ROLE" Type="FDAModel.Store.PARTY_ROLE" Multiplicity="1" />
+    <End Role="FUND_ASSET_PUBLICATION_MEDIA" Type="FDAModel.Store.FUND_ASSET_PUBLICATION_MEDIA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARTY_ROLE">
+        <PropertyRef Name="PARTY_ROLE_ID" />
+      </Principal>
+      <Dependent Role="FUND_ASSET_PUBLICATION_MEDIA">
+        <PropertyRef Name="PUBLICATION_MEDIA_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefPARTY_ROLE326">
+    <End Role="PARTY_ROLE" Type="FDAModel.Store.PARTY_ROLE" Multiplicity="1" />
+    <End Role="FUND_PORTFOLIO_MANAGER" Type="FDAModel.Store.FUND_PORTFOLIO_MANAGER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARTY_ROLE">
+        <PropertyRef Name="PARTY_ROLE_ID" />
+      </Principal>
+      <Dependent Role="FUND_PORTFOLIO_MANAGER">
+        <PropertyRef Name="PORTFOLIO_MANAGER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefPARTY_ROLE327">
+    <End Role="PARTY_ROLE" Type="FDAModel.Store.PARTY_ROLE" Multiplicity="0..1" />
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARTY_ROLE">
+        <PropertyRef Name="PARTY_ROLE_ID" />
+      </Principal>
+      <Dependent Role="FUND">
+        <PropertyRef Name="INVESTMENT_ADVISOR_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefPARTY_ROLE328">
+    <End Role="PARTY_ROLE" Type="FDAModel.Store.PARTY_ROLE" Multiplicity="0..1" />
+    <End Role="UMBRELLA" Type="FDAModel.Store.UMBRELLA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARTY_ROLE">
+        <PropertyRef Name="PARTY_ROLE_ID" />
+      </Principal>
+      <Dependent Role="UMBRELLA">
+        <PropertyRef Name="ADMINISTRATIVE_MANAGER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefPARTY_ROLE329">
+    <End Role="PARTY_ROLE" Type="FDAModel.Store.PARTY_ROLE" Multiplicity="0..1" />
+    <End Role="UMBRELLA" Type="FDAModel.Store.UMBRELLA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARTY_ROLE">
+        <PropertyRef Name="PARTY_ROLE_ID" />
+      </Principal>
+      <Dependent Role="UMBRELLA">
+        <PropertyRef Name="LEGAL_ADVISOR_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefPARTY_ROLE330">
+    <End Role="PARTY_ROLE" Type="FDAModel.Store.PARTY_ROLE" Multiplicity="0..1" />
+    <End Role="UMBRELLA" Type="FDAModel.Store.UMBRELLA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARTY_ROLE">
+        <PropertyRef Name="PARTY_ROLE_ID" />
+      </Principal>
+      <Dependent Role="UMBRELLA">
+        <PropertyRef Name="CUSTODIAN_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefPARTY_ROLE331">
+    <End Role="PARTY_ROLE" Type="FDAModel.Store.PARTY_ROLE" Multiplicity="0..1" />
+    <End Role="UMBRELLA" Type="FDAModel.Store.UMBRELLA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARTY_ROLE">
+        <PropertyRef Name="PARTY_ROLE_ID" />
+      </Principal>
+      <Dependent Role="UMBRELLA">
+        <PropertyRef Name="PAYING_AGENT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefPARTY321">
+    <End Role="PARTY" Type="FDAModel.Store.PARTY" Multiplicity="1" />
+    <End Role="PARTY_ROLE" Type="FDAModel.Store.PARTY_ROLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARTY">
+        <PropertyRef Name="PARTY_ID" />
+      </Principal>
+      <Dependent Role="PARTY_ROLE">
+        <PropertyRef Name="PARTY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefRATING50">
+    <End Role="RATING" Type="FDAModel.Store.RATING" Multiplicity="1" />
+    <End Role="FUND_ASSET_RATING" Type="FDAModel.Store.FUND_ASSET_RATING" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RATING">
+        <PropertyRef Name="RATING_ID" />
+      </Principal>
+      <Dependent Role="FUND_ASSET_RATING">
+        <PropertyRef Name="RATING_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefREBALANCING_FREQUENCY71">
+    <End Role="REBALANCING_FREQUENCY" Type="FDAModel.Store.REBALANCING_FREQUENCY" Multiplicity="0..1" />
+    <End Role="BENCHMARK" Type="FDAModel.Store.BENCHMARK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REBALANCING_FREQUENCY">
+        <PropertyRef Name="REBALANCING_FREQUENCY_ID" />
+      </Principal>
+      <Dependent Role="BENCHMARK">
+        <PropertyRef Name="REBALANCING_FREQUENCY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefSHARECLASS9">
+    <End Role="SHARECLASS" Type="FDAModel.Store.SHARECLASS" Multiplicity="1" />
+    <End Role="FUND_SHARECLASS" Type="FDAModel.Store.FUND_SHARECLASS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SHARECLASS">
+        <PropertyRef Name="SHARECLASS_ID" />
+      </Principal>
+      <Dependent Role="FUND_SHARECLASS">
+        <PropertyRef Name="SHARECLASS_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefSUMMARY_FILE_NAME">
+    <End Role="SUMMARY_FILE_NAME" Type="FDAModel.Store.SUMMARY_FILE_NAME" Multiplicity="0..1" />
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SUMMARY_FILE_NAME">
+        <PropertyRef Name="SUMMARY_FILE_NAME_ID" />
+      </Principal>
+      <Dependent Role="FUND">
+        <PropertyRef Name="SUMMARY_FILE_NAME_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefUMBRELLA6">
+    <End Role="UMBRELLA" Type="FDAModel.Store.UMBRELLA" Multiplicity="0..1" />
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UMBRELLA">
+        <PropertyRef Name="UMBRELLA_ID" />
+      </Principal>
+      <Dependent Role="FUND">
+        <PropertyRef Name="UMBRELLA_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefVALUATION_FREQUENCY59">
+    <End Role="VALUATION_FREQUENCY" Type="FDAModel.Store.VALUATION_FREQUENCY" Multiplicity="0..1" />
+    <End Role="FUND" Type="FDAModel.Store.FUND" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VALUATION_FREQUENCY">
+        <PropertyRef Name="VALUATION_FREQUENCY_ID" />
+      </Principal>
+      <Dependent Role="FUND">
+        <PropertyRef Name="VALUATION_FREQUENCY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefVALUATION_FREQUENCY60">
+    <End Role="VALUATION_FREQUENCY" Type="FDAModel.Store.VALUATION_FREQUENCY" Multiplicity="0..1" />
+    <End Role="BENCHMARK" Type="FDAModel.Store.BENCHMARK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VALUATION_FREQUENCY">
+        <PropertyRef Name="VALUATION_FREQUENCY_ID" />
+      </Principal>
+      <Dependent Role="BENCHMARK">
+        <PropertyRef Name="VALUATION_FREQUENCY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefVALUATION_TIMING73">
+    <End Role="VALUATION_TIMING" Type="FDAModel.Store.VALUATION_TIMING" Multiplicity="1" />
+    <End Role="FUND_VALUATION_TIMING" Type="FDAModel.Store.FUND_VALUATION_TIMING" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VALUATION_TIMING">
+        <PropertyRef Name="VALUATION_TIMING_ID" />
+      </Principal>
+      <Dependent Role="FUND_VALUATION_TIMING">
+        <PropertyRef Name="VALUATION_TIMING_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefVehicalType">
+    <End Role="VEHICLE_TYPE" Type="FDAModel.Store.VEHICLE_TYPE" Multiplicity="0..1" />
+    <End Role="UMBRELLA" Type="FDAModel.Store.UMBRELLA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VEHICLE_TYPE">
+        <PropertyRef Name="VEHICLE_TYPE_ID" />
+      </Principal>
+      <Dependent Role="UMBRELLA">
+        <PropertyRef Name="VEHICLE_TYPE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

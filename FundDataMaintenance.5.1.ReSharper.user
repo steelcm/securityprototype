@@ -1,0 +1,725 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Settings/f:ActiveDirectorySettings.cs" caret="403" fromTop="14" />
+      <File id="6DC83900-2887-4177-8E34-1C283C16D77A/f:App.Config" caret="82" fromTop="3" />
+      <File id="A3C443CD-E5AF-4F79-BD5F-5094197AB36C/d:Services/f:UmbrellaServiceTest.cs" caret="1915" fromTop="16" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Services/f:UmbrellaService.cs" caret="776" fromTop="0" />
+      <File id="E4FB973C-F673-407E-9935-666794B25C79/d:Interfaces/f:IReferenceRepository.cs" caret="0" fromTop="0" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/f:UmbrellaIndexFeatures.feature.cs" caret="0" fromTop="0" />
+      <File id="E4FB973C-F673-407E-9935-666794B25C79/d:Repositories/f:PartyRepository.cs" caret="0" fromTop="0" />
+      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Infrastructure/f:UnityDependencyResolver.cs" caret="885" fromTop="18" />
+      <File id="E4FB973C-F673-407E-9935-666794B25C79/d:Repositories/f:ReferenceRepository.cs" caret="425" fromTop="14" />
+      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Views/d:Shared/f:Error.cshtml" caret="0" fromTop="0" />
+      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Views/d:Shared/f:NavigationBar.cshtml" caret="0" fromTop="0" />
+      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Views/d:Shared/f:SignInUserControl.cshtml" caret="0" fromTop="0" />
+      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Views/d:Session/f:SignIn.cshtml" caret="1472" fromTop="44" />
+      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Controllers/f:SessionController.cs" caret="1193" fromTop="16" />
+      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Views/d:Shared/f:401.cshtml" caret="171" fromTop="6" />
+      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/f:Web.config" caret="1784" fromTop="14" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Providers/f:AuthenticationRoleProvider.cs" caret="1184" fromTop="25" />
+      <File id="0236F37A-978C-49BF-9614-4E61D8B1B2FD/d:Services/f:AuthenticationService.cs" caret="1017" fromTop="27" />
+      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/f:Global.asax.cs" caret="1887" fromTop="23" />
+      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Models/f:UmbrellaEditVM.cs" caret="515" fromTop="19" />
+      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Views/d:Shared/d:EditorTemplates/f:String.cshtml" caret="301" fromTop="9" />
+      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Controllers/f:UmbrellaController.cs" caret="1096" fromTop="19" />
+      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Attributes/f:AuthorizationAttribute.cs" caret="1697" fromTop="29" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Umbrella/f:UmbrellaEdit.feature" caret="0" fromTop="0" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Umbrella/f:UmbrellaIndex.feature" caret="337" fromTop="9" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/f:UmbrellaIndexFeatures.feature" caret="123" fromTop="2" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature.cs" caret="0" fromTop="0" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/f:UmbrellaDefinitions.cs" caret="788" fromTop="0" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="577" fromTop="19" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="500" fromTop="20" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Views/d:Shared/d:EditorTemplates/f:String.cshtml" caret="256" fromTop="7" />
+      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Controllers/f:UmbrellaController.cs" caret="1040" fromTop="17" />
+      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Attributes/f:AuthorizationAttribute.cs" caret="1052" fromTop="14" />
+      <File id="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3/d:Models/f:UmbrellaEditVM.cs" caret="515" fromTop="19" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/f:UmbrellaIndexFeatures.feature" caret="1921" fromTop="49" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/f:UmbrellaIndexFeatures.feature" caret="123" fromTop="4" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/f:UmbrellaIndexFeatures.feature" caret="125" fromTop="19" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Umbrella/f:UmbrellaIndex.feature" caret="150" fromTop="6" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="558" fromTop="9" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Umbrella/f:UmbrellaIndex.feature" caret="139" fromTop="4" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Umbrella/f:UmbrellaIndex.feature" caret="337" fromTop="9" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/f:UmbrellaIndexFeatures.feature" caret="123" fromTop="2" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="560" fromTop="9" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="475" fromTop="6" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="1354" fromTop="28" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="341" fromTop="13" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="489" fromTop="9" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="375" fromTop="12" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="1662" fromTop="50" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="1183" fromTop="34" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="1406" fromTop="40" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="2461" fromTop="51" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="2447" fromTop="50" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="1913" fromTop="44" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="887" fromTop="27" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Features/d:Sign-In/f:Sign-In.feature" caret="684" fromTop="21" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="1662" fromTop="24" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="1987" fromTop="33" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="2273" fromTop="40" />
+      <File id="52833DD1-45AC-4135-BB59-7FFE6761F581/d:Definitions/d:Sign-In/f:SignInDefinitions.cs" caret="500" fromTop="20" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="new" priority="53" />
+      <Item value="FDAModel" priority="1" />
+      <Item value="using" priority="11" />
+      <Item value="FundDataMaintenanceData" priority="6" />
+      <Item value="FundDataMaintenance" priority="0" />
+      <Item value="UMBRELLA`0" priority="4" />
+      <Item value="DataAnnotationsModelMetadata`0" priority="0" />
+      <Item value="FDA_DEV" priority="0" />
+      <Item value="_db" priority="13" />
+      <Item value="FDAEntities`0" priority="5" />
+      <Item value="FDAEntities" priority="3" />
+      <Item value="private" priority="7" />
+      <Item value="readonly" priority="3" />
+      <Item value="public" priority="27" />
+      <Item value="UmbrellaController`0" priority="4" />
+      <Item value="this" priority="11" />
+      <Item value="database" priority="0" />
+      <Item value="System" priority="4" />
+      <Item value="Linq" priority="0" />
+      <Item value="injectionConstructor" priority="2" />
+      <Item value="container" priority="0" />
+      <Item value="InjectionConstructor" priority="0" />
+      <Item value="Configuration`0" priority="0" />
+      <Item value="FundDataMaintenanceRepository" priority="0" />
+      <Item value="IDisposable`0" priority="0" />
+      <Item value="int" priority="22" />
+      <Item value="List" priority="6" />
+      <Item value="interface" priority="5" />
+      <Item value="return" priority="30" />
+      <Item value="protected" priority="7" />
+      <Item value="UmbrellaRepository`0" priority="1" />
+      <Item value="umbrellaRepository" priority="0" />
+      <Item value="IUmbrellaRepository`0" priority="1" />
+      <Item value="_umbrellaRepository" priority="3" />
+      <Item value="UmbrellaRepository" priority="0" />
+      <Item value="Interfaces" priority="0" />
+      <Item value="Test" priority="0" />
+      <Item value="void" priority="3" />
+      <Item value="FundDataMaintenanceTest" priority="0" />
+      <Item value="SetUp" priority="0" />
+      <Item value="_repository" priority="13" />
+      <Item value="Mock&lt;IUmbrellaRepository&gt;" priority="1" />
+      <Item value="o" priority="60" />
+      <Item value="IQueryable`0" priority="2" />
+      <Item value="UmbrellaControllerTest`0" priority="0" />
+      <Item value="as" priority="7" />
+      <Item value="var" priority="44" />
+      <Item value="controller" priority="1" />
+      <Item value="Assert`0" priority="4" />
+      <Item value="Is`0" priority="3" />
+      <Item value="typeof" priority="6" />
+      <Item value="HttpGet" priority="1" />
+      <Item value="prop" priority="17" />
+      <Item value="string" priority="26" />
+      <Item value="bool" priority="5" />
+      <Item value="Code" priority="3" />
+      <Item value="Name" priority="3" />
+      <Item value="Active" priority="4" />
+      <Item value="Id" priority="4" />
+      <Item value="Custodian" priority="4" />
+      <Item value="ActiveFundCount" priority="3" />
+      <Item value="f" priority="1" />
+      <Item value="EmptyModelMetadataProvider`0" priority="0" />
+      <Item value="viewModel" priority="9" />
+      <Item value="MultiSelectList`0" priority="1" />
+      <Item value="UmbrellaIndexVM`0" priority="8" />
+      <Item value="PARTY`0" priority="1" />
+      <Item value="ActionResult`0" priority="4" />
+      <Item value="View`0" priority="3" />
+      <Item value="pcs" priority="1" />
+      <Item value="psr" priority="1" />
+      <Item value="class" priority="0" />
+      <Item value="pvm" priority="6" />
+      <Item value="List&lt;UMBRELLA&gt;" priority="0" />
+      <Item value="service" priority="2" />
+      <Item value="IUmbrellaService`0" priority="3" />
+      <Item value="Services" priority="0" />
+      <Item value="UmbrellaService`0" priority="0" />
+      <Item value="repo" priority="0" />
+      <Item value="Has`0" priority="0" />
+      <Item value="IQueryable" priority="2" />
+      <Item value="Type`0" priority="3" />
+      <Item value="List`0" priority="0" />
+      <Item value="umbrellas" priority="2" />
+      <Item value="IAsyncResult`0" priority="0" />
+      <Item value="UmbrellaSM`0" priority="9" />
+      <Item value="DateTime`0" priority="0" />
+      <Item value="results" priority="0" />
+      <Item value="FUND`0" priority="2" />
+      <Item value="AutoMapper" priority="6" />
+      <Item value="Configuration" priority="1" />
+      <Item value="mapper" priority="1" />
+      <Item value="Mapper`0" priority="5" />
+      <Item value="serviceModel" priority="1" />
+      <Item value="foreach" priority="1" />
+      <Item value="IMappingEngineRunner`0" priority="0" />
+      <Item value="umbrellaSM" priority="0" />
+      <Item value="GenericUriParser`0" priority="0" />
+      <Item value="IEnumerable" priority="3" />
+      <Item value="_service" priority="3" />
+      <Item value="id" priority="5" />
+      <Item value="umbrella" priority="9" />
+      <Item value="result" priority="5" />
+      <Item value="null" priority="5" />
+      <Item value="UMBRELLA" priority="0" />
+      <Item value="_webDriver" priority="7" />
+      <Item value="ChromeDriver`0" priority="1" />
+      <Item value="AfterFeature" priority="0" />
+      <Item value="elem" priority="3" />
+      <Item value="throw" priority="2" />
+      <Item value="try" priority="2" />
+      <Item value="catch" priority="2" />
+      <Item value="Exception`0" priority="4" />
+      <Item value="HttpException" priority="0" />
+      <Item value="NotImplementedException" priority="0" />
+      <Item value="PARTY_ROLE2" priority="0" />
+      <Item value="PARTY_ROLE" priority="0" />
+      <Item value="PARTY" priority="1" />
+      <Item value="NAME" priority="1" />
+      <Item value="FUND" priority="1" />
+      <Item value="ICollection" priority="0" />
+      <Item value="EntityCollection&lt;FUND&gt;" priority="0" />
+      <Item value="_umbrellaService" priority="1" />
+      <Item value="UmbrellaEditVM`0" priority="2" />
+      <Item value="NewsStyleUriParser`0" priority="0" />
+      <Item value="IList" priority="2" />
+      <Item value="CustodianSelectList" priority="1" />
+      <Item value="CustodianId" priority="1" />
+      <Item value="Value" priority="3" />
+      <Item value="Text" priority="2" />
+      <Item value="SelectListItem`0" priority="3" />
+      <Item value="partyRepository" priority="1" />
+      <Item value="IRepository" priority="1" />
+      <Item value="PARTY_ROLE_TYPE`0" priority="1" />
+      <Item value="partyRoleType" priority="1" />
+      <Item value="partyRoleTypeCode" priority="0" />
+      <Item value="_partyRepository" priority="5" />
+      <Item value="PARTY_ROLE`0" priority="1" />
+      <Item value="Selected" priority="1" />
+      <Item value="Mock&lt;IPartyRepository&gt;" priority="0" />
+      <Item value="String`0" priority="2" />
+      <Item value="PARTY_ROLE_ID" priority="1" />
+      <Item value="active" priority="0" />
+      <Item value="FiscalYearEndId" priority="0" />
+      <Item value="COUNTRY`0" priority="10" />
+      <Item value="where" priority="0" />
+      <Item value="T`0" priority="1" />
+      <Item value="dynamic" priority="2" />
+      <Item value="Expression`0" priority="0" />
+      <Item value="type" priority="2" />
+      <Item value="CSpace" priority="0" />
+      <Item value="IReferenceRepository`0" priority="5" />
+      <Item value="_referenceRepository" priority="10" />
+      <Item value="Mock`0" priority="0" />
+      <Item value="Mock&lt;IReferenceRepository&gt;" priority="0" />
+      <Item value="query" priority="0" />
+      <Item value="DisplayName" priority="0" />
+      <Item value="VEHICLE_TYPE`0" priority="0" />
+      <Item value="FISCAL_YEAR_END`0" priority="0" />
+      <Item value="AdminManagerId" priority="0" />
+      <Item value="PayingAgentId" priority="0" />
+      <Item value="LegalAdviserId" priority="0" />
+      <Item value="ReadOnly" priority="0" />
+      <Item value="UIHint" priority="0" />
+      <Item value="true" priority="3" />
+      <Item value="SignInController`0" priority="0" />
+      <Item value="IAuthenticationService`0" priority="1" />
+      <Item value="AuthenticationService" priority="0" />
+      <Item value="Authorize" priority="5" />
+      <Item value="HttpPost" priority="1" />
+      <Item value="SignInVM`0" priority="1" />
+      <Item value="AcceptVerbs" priority="0" />
+      <Item value="HttpVerbs`0" priority="0" />
+      <Item value="ValidateAntiForgeryToken" priority="0" />
+      <Item value="if" priority="9" />
+      <Item value="ModelState`0" priority="2" />
+      <Item value="DependencyResolver`0" priority="0" />
+      <Item value="_authenticationService" priority="0" />
+      <Item value="UserSM`0" priority="0" />
+      <Item value="passwordMatches" priority="0" />
+      <Item value="RedirectToAction`0" priority="0" />
+      <Item value="Redirect`0" priority="1" />
+      <Item value="ReturnUrl" priority="0" />
+      <Item value="IActiveDirectorySettings`0" priority="1" />
+      <Item value="DataType" priority="0" />
+      <Item value="DataType`0" priority="0" />
+      <Item value="override" priority="3" />
+      <Item value="propertyDescriptor" priority="0" />
+      <Item value="value" priority="1" />
+      <Item value="stringObj" priority="3" />
+      <Item value="ModelBinders`0" priority="0" />
+      <Item value="ControllerContext`0" priority="0" />
+      <Item value="ModelBindingContext`0" priority="0" />
+      <Item value="startingValue" priority="0" />
+      <Item value="endingValue" priority="0" />
+      <Item value="_adSettings" priority="0" />
+      <Item value="user" priority="1" />
+      <Item value="FormsAuthentication`0" priority="0" />
+      <Item value="Roles" priority="4" />
+      <Item value="ComponentModel" priority="1" />
+      <Item value="DataAnnotations" priority="0" />
+      <Item value="DisplayFormatAttribute`0" priority="0" />
+      <Item value="Attribute`0" priority="0" />
+      <Item value="AttributeCollection`0" priority="0" />
+      <Item value="Authorize`0" priority="0" />
+      <Item value="false" priority="8" />
+      <Item value="User" priority="1" />
+      <Item value="AuthenticationRoleProvider`0" priority="1" />
+      <Item value="referenceRepository" priority="1" />
+      <Item value="username" priority="2" />
+      <Item value="DirectoryServices" priority="0" />
+      <Item value="UserPrincipal`0" priority="0" />
+      <Item value="context" priority="1" />
+      <Item value="ReferenceRepository`0" priority="3" />
+      <Item value="ADgroups" priority="3" />
+      <Item value="List&lt;string&gt;" priority="1" />
+      <Item value="while" priority="0" />
+      <Item value="i" priority="2" />
+      <Item value="role" priority="2" />
+      <Item value="rs" priority="1" />
+      <Item value="e" priority="0" />
+      <Item value="roles" priority="0" />
+      <Item value="ADRoles" priority="3" />
+      <Item value="SECURITY_GROUP`0" priority="0" />
+      <Item value="Object`0" priority="0" />
+      <Item value="object" priority="1" />
+      <Item value="internalRoles" priority="0" />
+      <Item value="securityGroups" priority="3" />
+      <Item value="x" priority="1" />
+      <Item value="SECURITY_GROUP_ROLE_TYPE`0" priority="0" />
+      <Item value="y" priority="1" />
+      <Item value="r" priority="2" />
+      <Item value="rta" priority="0" />
+      <Item value="t" priority="1" />
+      <Item value="userRoles" priority="0" />
+      <Item value="Contains`1" priority="0" />
+      <Item value="roleName" priority="0" />
+      <Item value="ControllerActionInvoker`0" priority="0" />
+      <Item value="filterContext" priority="2" />
+      <Item value="HttpContextBase" priority="0" />
+      <Item value="contextBase" priority="8" />
+      <Item value="else" priority="2" />
+      <Item value="ViewResult`0" priority="0" />
+      <Item value="ViewName" priority="0" />
+      <Item value="AttributeTargets`0" priority="1" />
+      <Item value="AuthorizationContext`0" priority="0" />
+      <Item value="HttpContext`0" priority="1" />
+      <Item value="isReadOnly" priority="4" />
+      <Item value="ToList`1" priority="0" />
+      <Item value="Select`2" priority="0" />
+      <Item value="roleList" priority="0" />
+      <Item value="containsRole" priority="1" />
+      <Item value="fieldName" priority="1" />
+      <Item value="By`0" priority="0" />
+      <Item value="elems" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenance.Controllers.UmbrellaController">
+      <Item value="_db" priority="0" />
+      <Item value="Index`0" priority="0" />
+      <Item value="Edit`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenanceData.FDAEntities">
+      <Item value="UMBRELLAs" priority="1" />
+      <Item value="PARTies" priority="1" />
+      <Item value="PARTY_ROLE_TYPE" priority="0" />
+      <Item value="PARTY_ROLE" priority="0" />
+      <Item value="COUNTRies" priority="1" />
+      <Item value="MetadataWorkspace" priority="0" />
+      <Item value="DefaultContainerName" priority="0" />
+      <Item value="CreateQuery`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectSet`1">
+      <Item value="ToList`1" priority="0" />
+      <Item value="Include`0" priority="3" />
+      <Item value="Where`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Practices.Unity.IUnityContainer">
+      <Item value="RegisterType`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenanceRepository.Repositories.UmbrellaRepository">
+      <Item value="_db" priority="0" />
+      <Item value="Entities" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Mock`1">
+      <Item value="Setup`1" priority="3" />
+      <Item value="Object" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenanceRepository.Interfaces.IUmbrellaRepository">
+      <Item value="Entities" priority="1" />
+      <Item value="getUmbrellas`0" priority="1" />
+      <Item value="GetUmbrellas`0" priority="0" />
+      <Item value="GetUmbrella`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Language.Flow.ISetup`2">
+      <Item value="Returns`16" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="AsQueryable`0" priority="2" />
+      <Item value="Select`2" priority="3" />
+      <Item value="ForEach`0" priority="5" />
+      <Item value="Add`0" priority="2" />
+      <Item value="ToArray`0" priority="0" />
+      <Item value="ToList`1" priority="0" />
+      <Item value="Contains`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="IsTrue`0" priority="1" />
+      <Item value="That`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Is">
+      <Item value="TypeOf`1" priority="1" />
+      <Item value="EqualTo`0" priority="1" />
+      <Item value="StringMatching`0" priority="1" />
+      <Item value="Not" priority="0" />
+      <Item value="GreaterThanOrEqualTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="Select`2" priority="10" />
+      <Item value="ToList`1" priority="9" />
+      <Item value="FirstOrDefault`1" priority="4" />
+      <Item value="Where`1" priority="8" />
+      <Item value="Join`4" priority="2" />
+      <Item value="Contains`1" priority="0" />
+      <Item value="ToArray`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenanceData.UMBRELLA">
+      <Item value="CODE" priority="1" />
+      <Item value="LEGAL_NAME" priority="1" />
+      <Item value="ACTIVE_IND" priority="1" />
+      <Item value="UMBRELLA_ID" priority="2" />
+      <Item value="CUSTODIAN_ID" priority="4" />
+      <Item value="FUNDs" priority="1" />
+      <Item value="PARTY_ROLE" priority="1" />
+      <Item value="PARTY_ROLE2" priority="1" />
+      <Item value="DOMICILE_COUNTRY_ID" priority="1" />
+      <Item value="VEHICLE_TYPE_ID" priority="1" />
+      <Item value="FISCAL_YEAR_END_ID" priority="1" />
+      <Item value="FILE_PROVIDER_ID" priority="1" />
+      <Item value="ADMINISTRATIVE_MANAGER_ID" priority="1" />
+      <Item value="PAYING_AGENT_ID" priority="1" />
+      <Item value="LEGAL_ADVISOR_ID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Equals`0" priority="10" />
+      <Item value="ToLower`0" priority="1" />
+      <Item value="Trim`0" priority="1" />
+      <Item value="ToUpper`0" priority="1" />
+      <Item value="Split`0" priority="0" />
+      <Item value="TrimEnd`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="ToString`0" priority="0" />
+      <Item value="HasValue" priority="4" />
+      <Item value="Value" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.DataClasses.EntityCollection`1">
+      <Item value="Where`1" priority="1" />
+      <Item value="Select`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenanceData.FUND">
+      <Item value="LAUNCH_DATE" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Count`1" priority="3" />
+      <Item value="ToList`1" priority="2" />
+      <Item value="First`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenanceData.PARTY_ROLE">
+      <Item value="PARTY" priority="7" />
+      <Item value="PARTY_ROLE_TYPE" priority="1" />
+      <Item value="PARTY_ROLE_ID" priority="3" />
+      <Item value="ACTIVE_IND" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenanceData.PARTY">
+      <Item value="NAME" priority="4" />
+      <Item value="PARTY_ID" priority="0" />
+      <Item value="PARTY_ROLE" priority="1" />
+      <Item value="CODE" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Today" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenaceBusiness.Interfaces.IUmbrellaService">
+      <Item value="GetUmbrellas`0" priority="2" />
+      <Item value="GetUmbrellaById`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AutoMapper.Mapper">
+      <Item value="CreateMap`0" priority="0" />
+      <Item value="Map`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Concat`0" priority="2" />
+      <Item value="IsNullOrEmpty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenaceBusiness.Services.UmbrellaService">
+      <Item value="GetUmbrellas`0" priority="0" />
+      <Item value="_referenceRepository" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OpenQA.Selenium.IWebDriver">
+      <Item value="Quit`0" priority="0" />
+      <Item value="Manage`0" priority="2" />
+      <Item value="Navigate`0" priority="0" />
+      <Item value="FindElement`0" priority="0" />
+      <Item value="FindElements`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@OpenQA.Selenium.By">
+      <Item value="Name`0" priority="2" />
+      <Item value="CssSelector`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.ReadOnlyCollection`1">
+      <Item value="First`1" priority="2" />
+      <Item value="Count`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OpenQA.Selenium.IWebElement">
+      <Item value="Click`0" priority="1" />
+      <Item value="Text" priority="1" />
+      <Item value="GetAttribute`0" priority="1" />
+      <Item value="GetType`0" priority="0" />
+      <Item value="TagName" priority="0" />
+      <Item value="SendKeys`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="Equals`0" priority="8" />
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenanceData.PARTY_ROLE_TYPE">
+      <Item value="PARTY_ROLE" priority="0" />
+      <Item value="CODE" priority="0" />
+      <Item value="Equals`0" priority="0" />
+      <Item value="PARTY_ROLE_TYPE_ID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenanceRepository.Interfaces.IPartyRepository">
+      <Item value="GetParties`0" priority="0" />
+      <Item value="GetPartyRoleType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenaceBusiness.Models.UmbrellaSM">
+      <Item value="CustodianSelectList" priority="0" />
+      <Item value="CustodianId" priority="1" />
+      <Item value="DomicileCountrySelectList" priority="1" />
+      <Item value="VehicleTypeSelectList" priority="0" />
+      <Item value="FiscalYearEndId" priority="3" />
+      <Item value="DomicileCountryId" priority="2" />
+      <Item value="VehicleTypeId" priority="2" />
+      <Item value="FileProviderSelectList" priority="0" />
+      <Item value="FileProviderId" priority="1" />
+      <Item value="AdminManagerSelectList" priority="0" />
+      <Item value="AdminManagerId" priority="1" />
+      <Item value="PayingAgentSelectList" priority="0" />
+      <Item value="PayingAgentId" priority="1" />
+      <Item value="LegalAdviserSelectList" priority="0" />
+      <Item value="LegalAdviserId" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenanceData.COUNTRY">
+      <Item value="COUNTRY_ID" priority="3" />
+      <Item value="NAME" priority="0" />
+      <Item value="ISO_CODE" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Linq.Expressions.Expression">
+      <Item value="Parameter`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Metadata.Edm.MetadataWorkspace">
+      <Item value="GetEntityContainer`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Metadata.Edm.ReadOnlyMetadataCollection`1">
+      <Item value="Where`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Metadata.Edm.EntitySetBase">
+      <Item value="ElementType" priority="0" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Metadata.Edm.EntityTypeBase">
+      <Item value="GetType`0" priority="1" />
+      <Item value="FullName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="ToString`0" priority="1" />
+      <Item value="GetElementType`0" priority="0" />
+      <Item value="FullName" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectQuery`1">
+      <Item value="AsQueryable`0" priority="1" />
+      <Item value="Execute`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenanceRepository.Interfaces.IReferenceRepository">
+      <Item value="GetAll`1" priority="6" />
+      <Item value="GetById`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectResult`1">
+      <Item value="AsQueryable`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenanceData.VEHICLE_TYPE">
+      <Item value="VEHICLE_TYPE_ID" priority="2" />
+      <Item value="ACTIVE_IND" priority="0" />
+      <Item value="CODE" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenanceData.FISCAL_YEAR_END">
+      <Item value="FISCAL_YEAR_END_ID" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.HttpVerbs">
+      <Item value="Post" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ModelStateDictionary">
+      <Item value="IsValid" priority="0" />
+      <Item value="AddModelError`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenaceBusiness.Interfaces.IAuthenticationService">
+      <Item value="PasswordMatches`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenance.Models.SignInVM">
+      <Item value="Password" priority="0" />
+      <Item value="Username" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ComponentModel.DataAnnotations.DataType">
+      <Item value="Password" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.PropertyDescriptor">
+      <Item value="PropertyType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.ModelBinders">
+      <Item value="Binders" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ModelBinderDictionary">
+      <Item value="DefaultBinder" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NUnit.Framework.Constraints.ConstraintExpression">
+      <Item value="EqualTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenaceBusiness.Interfaces.IActiveDirectorySettings">
+      <Item value="DomainName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenaceBusiness.Models.UserSM">
+      <Item value="Username" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Security.FormsAuthentication">
+      <Item value="SignOut`0" priority="0" />
+      <Item value="RedirectToLoginPage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Security.Roles">
+      <Item value="GetRolesForUser`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IPrincipal">
+      <Item value="Identity" priority="1" />
+      <Item value="IsInRole`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IIdentity">
+      <Item value="Name" priority="0" />
+      <Item value="IsAuthenticated" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DirectoryServices.AccountManagement.UserPrincipal">
+      <Item value="FindByIdentity`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DirectoryServices.AccountManagement.UserPrincipal">
+      <Item value="GetAuthorizationGroups`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenanceData.SECURITY_GROUP">
+      <Item value="NAME" priority="3" />
+      <Item value="SECURITY_GROUP_ID" priority="2" />
+      <Item value="PropertyChanging" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DirectoryServices.AccountManagement.PrincipalSearchResult`1">
+      <Item value="ElementAt`1" priority="1" />
+      <Item value="Count`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DirectoryServices.AccountManagement.Principal">
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenaceBusiness.Providers.AuthenticationRoleProvider">
+      <Item value="_referenceRepository" priority="2" />
+      <Item value="GetRolesForUser`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenanceData.SECURITY_GROUP_ROLE">
+      <Item value="SECURITY_GROUP_ID" priority="1" />
+      <Item value="SECURITY_GROUP_ROLE_TYPE_ID" priority="1" />
+      <Item value="ACTIVE_IND" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenanceData.SECURITY_GROUP_ROLE_TYPE">
+      <Item value="SECURITY_GROUP_ROLE_TYPE_ID" priority="0" />
+      <Item value="NAME" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Contracts.Contract">
+      <Item value="Requires`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.AuthorizationContext">
+      <Item value="RequestContext" priority="0" />
+      <Item value="Result" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Routing.RequestContext">
+      <Item value="HttpContext" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContextBase">
+      <Item value="User" priority="0" />
+      <Item value="Response" priority="1" />
+      <Item value="Request" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponseBase">
+      <Item value="Redirect`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequestBase">
+      <Item value="RawUrl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.AttributeTargets">
+      <Item value="Property" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpContext">
+      <Item value="Current" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="Request" priority="0" />
+      <Item value="User" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="RequestContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FundDataMaintenance.Attributes.ReadOnlyAuthorizeAttribute">
+      <Item value="Roles" priority="1" />
+      <Item value="IsReadOnly" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OpenQA.Selenium.IOptions">
+      <Item value="Cookies" priority="1" />
+      <Item value="Window" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OpenQA.Selenium.ICookieJar">
+      <Item value="DeleteAllCookies`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OpenQA.Selenium.IWindow">
+      <Item value="Position" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OpenQA.Selenium.INavigation">
+      <Item value="GoToUrl`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,743 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FDAModelStoreContainer" CdmEntityContainer="FDAEntities">
+    <EntitySetMapping Name="ASSET_MATCHING">
+      <EntityTypeMapping TypeName="FDAModel.ASSET_MATCHING">
+        <MappingFragment StoreEntitySet="ASSET_MATCHING">
+          <ScalarProperty Name="FDW_ASSET_EXTERNAL_ID" ColumnName="FDW_ASSET_EXTERNAL_ID" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="SEDOL" ColumnName="SEDOL" />
+          <ScalarProperty Name="CUSIP" ColumnName="CUSIP" />
+          <ScalarProperty Name="ISIN" ColumnName="ISIN" />
+          <ScalarProperty Name="OTHER_CD" ColumnName="OTHER_CD" />
+          <ScalarProperty Name="CG_SYMBOL" ColumnName="CG_SYMBOL" />
+          <ScalarProperty Name="CURRENCY_CD" ColumnName="CURRENCY_CD" />
+          <ScalarProperty Name="COUNTRY_CD" ColumnName="COUNTRY_CD" />
+          <ScalarProperty Name="ASSET_CATEGORY_CD" ColumnName="ASSET_CATEGORY_CD" />
+          <ScalarProperty Name="SUB_INDUSTRY_CD" ColumnName="SUB_INDUSTRY_CD" />
+          <ScalarProperty Name="SOURCE" ColumnName="SOURCE" />
+          <ScalarProperty Name="REMOVE_IND" ColumnName="REMOVE_IND" />
+          <ScalarProperty Name="ERROR_IND" ColumnName="ERROR_IND" />
+          <ScalarProperty Name="LOG_INTERFACE_STEP_ID" ColumnName="LOG_INTERFACE_STEP_ID" />
+          <ScalarProperty Name="FDA_CGSYMBOL_UPD_DATE" ColumnName="FDA_CGSYMBOL_UPD_DATE" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BENCHMARKs">
+      <EntityTypeMapping TypeName="FDAModel.BENCHMARK">
+        <MappingFragment StoreEntitySet="BENCHMARK">
+          <ScalarProperty Name="BENCHMARK_ID" ColumnName="BENCHMARK_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="SHORT_NAME" ColumnName="SHORT_NAME" />
+          <ScalarProperty Name="LONG_NAME" ColumnName="LONG_NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="REBALANCING_FREQUENCY_ID" ColumnName="REBALANCING_FREQUENCY_ID" />
+          <ScalarProperty Name="VALUATION_FREQUENCY_ID" ColumnName="VALUATION_FREQUENCY_ID" />
+          <ScalarProperty Name="CURRENCY_ID" ColumnName="CURRENCY_ID" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BENCHMARK_ASSOCIATION">
+      <EntityTypeMapping TypeName="FDAModel.BENCHMARK_ASSOCIATION">
+        <MappingFragment StoreEntitySet="BENCHMARK_ASSOCIATION">
+          <ScalarProperty Name="FUND_BENCHMARK_ASSOCIATION_ID" ColumnName="FUND_BENCHMARK_ASSOCIATION_ID" />
+          <ScalarProperty Name="VALID_FROM_DATE" ColumnName="VALID_FROM_DATE" />
+          <ScalarProperty Name="BENCHMARK_ID" ColumnName="BENCHMARK_ID" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BENCHMARK_INDEX">
+      <EntityTypeMapping TypeName="FDAModel.BENCHMARK_INDEX">
+        <MappingFragment StoreEntitySet="BENCHMARK_INDEX">
+          <ScalarProperty Name="BENCHMARK_ID" ColumnName="BENCHMARK_ID" />
+          <ScalarProperty Name="INDEX_ELEMENT_ID" ColumnName="INDEX_ELEMENT_ID" />
+          <ScalarProperty Name="WEIGHT" ColumnName="WEIGHT" />
+          <ScalarProperty Name="CURRENCY_ID" ColumnName="CURRENCY_ID" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CALENDAR_EVENT_TYPE">
+      <EntityTypeMapping TypeName="FDAModel.CALENDAR_EVENT_TYPE">
+        <MappingFragment StoreEntitySet="CALENDAR_EVENT_TYPE">
+          <ScalarProperty Name="CALENDAR_EVENT_TYPE_ID" ColumnName="CALENDAR_EVENT_TYPE_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COUNTRies">
+      <EntityTypeMapping TypeName="FDAModel.COUNTRY">
+        <MappingFragment StoreEntitySet="COUNTRY">
+          <ScalarProperty Name="COUNTRY_ID" ColumnName="COUNTRY_ID" />
+          <ScalarProperty Name="ISO_CODE" ColumnName="ISO_CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CURRENCies">
+      <EntityTypeMapping TypeName="FDAModel.CURRENCY">
+        <MappingFragment StoreEntitySet="CURRENCY">
+          <ScalarProperty Name="CURRENCY_ID" ColumnName="CURRENCY_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CUT_OFF_TIME">
+      <EntityTypeMapping TypeName="FDAModel.CUT_OFF_TIME">
+        <MappingFragment StoreEntitySet="CUT_OFF_TIME">
+          <ScalarProperty Name="CUT_OFF_TIME_ID" ColumnName="CUT_OFF_TIME_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DISTRIBUTION_FREQUENCY">
+      <EntityTypeMapping TypeName="FDAModel.DISTRIBUTION_FREQUENCY">
+        <MappingFragment StoreEntitySet="DISTRIBUTION_FREQUENCY">
+          <ScalarProperty Name="DISTRIBUTION_FREQUENCY_ID" ColumnName="DISTRIBUTION_FREQUENCY_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DISTRIBUTION_POLICY">
+      <EntityTypeMapping TypeName="FDAModel.DISTRIBUTION_POLICY">
+        <MappingFragment StoreEntitySet="DISTRIBUTION_POLICY">
+          <ScalarProperty Name="DISTRIBUTION_POLICY_ID" ColumnName="DISTRIBUTION_POLICY_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="DISTRIBUTING_IND" ColumnName="DISTRIBUTING_IND" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FILE_PROVIDER">
+      <EntityTypeMapping TypeName="FDAModel.FILE_PROVIDER">
+        <MappingFragment StoreEntitySet="FILE_PROVIDER">
+          <ScalarProperty Name="PARTY_ROLE_ID" ColumnName="PARTY_ROLE_ID" />
+          <ScalarProperty Name="INFO_REQUIRED_IND" ColumnName="INFO_REQUIRED_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FISCAL_YEAR_END">
+      <EntityTypeMapping TypeName="FDAModel.FISCAL_YEAR_END">
+        <MappingFragment StoreEntitySet="FISCAL_YEAR_END">
+          <ScalarProperty Name="FISCAL_YEAR_END_ID" ColumnName="FISCAL_YEAR_END_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUNDs">
+      <EntityTypeMapping TypeName="FDAModel.FUND">
+        <MappingFragment StoreEntitySet="FUND">
+          <ScalarProperty Name="FUND_ID" ColumnName="FUND_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="ACRONYM" ColumnName="ACRONYM" />
+          <ScalarProperty Name="LEGAL_NAME" ColumnName="LEGAL_NAME" />
+          <ScalarProperty Name="SHORT_NAME" ColumnName="SHORT_NAME" />
+          <ScalarProperty Name="PORTFOLIO_ACCOUNTING_ACCOUNT_ID" ColumnName="PORTFOLIO_ACCOUNTING_ACCOUNT_ID" />
+          <ScalarProperty Name="LAUNCH_DATE" ColumnName="LAUNCH_DATE" />
+          <ScalarProperty Name="TERMINATION_DATE" ColumnName="TERMINATION_DATE" />
+          <ScalarProperty Name="INVESTMENT_OBJECTIVE_DESCRIPTION" ColumnName="INVESTMENT_OBJECTIVE_DESCRIPTION" />
+          <ScalarProperty Name="INDIVIDUAL_SAVING_ACCOUNT_ELIGIBILITY_IND" ColumnName="INDIVIDUAL_SAVING_ACCOUNT_ELIGIBILITY_IND" />
+          <ScalarProperty Name="INVESTMENT_RESULT_TEXT" ColumnName="INVESTMENT_RESULT_TEXT" />
+          <ScalarProperty Name="EXTERNAL_CODE" ColumnName="EXTERNAL_CODE" />
+          <ScalarProperty Name="EXTERNAL_FEEDER_FUND_IND" ColumnName="EXTERNAL_FEEDER_FUND_IND" />
+          <ScalarProperty Name="UMBRELLA_ID" ColumnName="UMBRELLA_ID" />
+          <ScalarProperty Name="OPERATING_CURRENCY_ID" ColumnName="OPERATING_CURRENCY_ID" />
+          <ScalarProperty Name="BASE_CURRENCY_ID" ColumnName="BASE_CURRENCY_ID" />
+          <ScalarProperty Name="INVESTMENT_RESULT_BASE_CURRENCY_ID" ColumnName="INVESTMENT_RESULT_BASE_CURRENCY_ID" />
+          <ScalarProperty Name="VALUATION_FREQUENCY_ID" ColumnName="VALUATION_FREQUENCY_ID" />
+          <ScalarProperty Name="CUT_OFF_TIME_ID" ColumnName="CUT_OFF_TIME_ID" />
+          <ScalarProperty Name="INVESTMENT_ADVISOR_ID" ColumnName="INVESTMENT_ADVISOR_ID" />
+          <ScalarProperty Name="IMA_SECTOR_ID" ColumnName="IMA_SECTOR_ID" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+          <ScalarProperty Name="NAV_FILE_NAME_ID" ColumnName="NAV_FILE_NAME_ID" />
+          <ScalarProperty Name="HOLDING_FILE_NAME_ID" ColumnName="HOLDING_FILE_NAME_ID" />
+          <ScalarProperty Name="SUMMARY_FILE_NAME_ID" ColumnName="SUMMARY_FILE_NAME_ID" />
+          <ScalarProperty Name="FUND_STATUS" ColumnName="FUND_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_ASSET">
+      <EntityTypeMapping TypeName="FDAModel.FUND_ASSET">
+        <MappingFragment StoreEntitySet="FUND_ASSET">
+          <ScalarProperty Name="FUND_ASSET_ID" ColumnName="FUND_ASSET_ID" />
+          <ScalarProperty Name="CG_CODE" ColumnName="CG_CODE" />
+          <ScalarProperty Name="FUND_SHARECLASS_ID" ColumnName="FUND_SHARECLASS_ID" />
+          <ScalarProperty Name="CURRENCY_ID" ColumnName="CURRENCY_ID" />
+          <ScalarProperty Name="LAUNCH_DATE" ColumnName="LAUNCH_DATE" />
+          <ScalarProperty Name="TERMINATION_DATE" ColumnName="TERMINATION_DATE" />
+          <ScalarProperty Name="FDA_ACTIVATION_DATE" ColumnName="FDA_ACTIVATION_DATE" />
+          <ScalarProperty Name="FDA_VALIDATION_DATE" ColumnName="FDA_VALIDATION_DATE" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_ASSET_IDENTIFIER">
+      <EntityTypeMapping TypeName="FDAModel.FUND_ASSET_IDENTIFIER">
+        <MappingFragment StoreEntitySet="FUND_ASSET_IDENTIFIER">
+          <ScalarProperty Name="FUND_ASSET_ID" ColumnName="FUND_ASSET_ID" />
+          <ScalarProperty Name="ASSET_ID_TYPE_ID" ColumnName="ASSET_ID_TYPE_ID" />
+          <ScalarProperty Name="VALID_FROM_DATE" ColumnName="VALID_FROM_DATE" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_ASSET_IDENTIFIER_TYPE">
+      <EntityTypeMapping TypeName="FDAModel.FUND_ASSET_IDENTIFIER_TYPE">
+        <MappingFragment StoreEntitySet="FUND_ASSET_IDENTIFIER_TYPE">
+          <ScalarProperty Name="ASSET_ID_TYPE_ID" ColumnName="ASSET_ID_TYPE_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_ASSET_PUBLICATION_MEDIA">
+      <EntityTypeMapping TypeName="FDAModel.FUND_ASSET_PUBLICATION_MEDIA">
+        <MappingFragment StoreEntitySet="FUND_ASSET_PUBLICATION_MEDIA">
+          <ScalarProperty Name="FUND_ASSET_ID" ColumnName="FUND_ASSET_ID" />
+          <ScalarProperty Name="PUBLICATION_MEDIA_ID" ColumnName="PUBLICATION_MEDIA_ID" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_ASSET_RATING">
+      <EntityTypeMapping TypeName="FDAModel.FUND_ASSET_RATING">
+        <MappingFragment StoreEntitySet="FUND_ASSET_RATING">
+          <ScalarProperty Name="FUND_ASSET_ID" ColumnName="FUND_ASSET_ID" />
+          <ScalarProperty Name="VALID_FROM_DATE" ColumnName="VALID_FROM_DATE" />
+          <ScalarProperty Name="RATING_ID" ColumnName="RATING_ID" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_BENCHMARK_ASSOCIATION">
+      <EntityTypeMapping TypeName="FDAModel.FUND_BENCHMARK_ASSOCIATION">
+        <MappingFragment StoreEntitySet="FUND_BENCHMARK_ASSOCIATION">
+          <ScalarProperty Name="FUND_BENCHMARK_ASSOCIATION_ID" ColumnName="FUND_BENCHMARK_ASSOCIATION_ID" />
+          <ScalarProperty Name="FUND_ID" ColumnName="FUND_ID" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="FUND_BENCHMARK_ASSOCIATION_TYPE_ID" ColumnName="FUND_BENCHMARK_ASSOCIATION_TYPE_ID" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_BENCHMARK_ASSOCIATION_TYPE">
+      <EntityTypeMapping TypeName="FDAModel.FUND_BENCHMARK_ASSOCIATION_TYPE">
+        <MappingFragment StoreEntitySet="FUND_BENCHMARK_ASSOCIATION_TYPE">
+          <ScalarProperty Name="FUND_BENCHMARK_ASSOCIATION_TYPE_ID" ColumnName="FUND_BENCHMARK_ASSOCIATION_TYPE_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_CALENDAR_EVENT">
+      <EntityTypeMapping TypeName="FDAModel.FUND_CALENDAR_EVENT">
+        <MappingFragment StoreEntitySet="FUND_CALENDAR_EVENT">
+          <ScalarProperty Name="FUND_ID" ColumnName="FUND_ID" />
+          <ScalarProperty Name="CALENDAR_EVENT_TYPE_ID" ColumnName="CALENDAR_EVENT_TYPE_ID" />
+          <ScalarProperty Name="EVENT_DATE" ColumnName="EVENT_DATE" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_GROUPING">
+      <EntityTypeMapping TypeName="FDAModel.FUND_GROUPING">
+        <MappingFragment StoreEntitySet="FUND_GROUPING">
+          <ScalarProperty Name="FUND_ID" ColumnName="FUND_ID" />
+          <ScalarProperty Name="GROUP_USAGE_ID" ColumnName="GROUP_USAGE_ID" />
+          <ScalarProperty Name="GROUP_TYPE_ID" ColumnName="GROUP_TYPE_ID" />
+          <ScalarProperty Name="ORDER_NUMBER" ColumnName="ORDER_NUMBER" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_PAYMENT_CURRENCY">
+      <EntityTypeMapping TypeName="FDAModel.FUND_PAYMENT_CURRENCY">
+        <MappingFragment StoreEntitySet="FUND_PAYMENT_CURRENCY">
+          <ScalarProperty Name="FUND_ID" ColumnName="FUND_ID" />
+          <ScalarProperty Name="CURRENCY_ID" ColumnName="CURRENCY_ID" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_PORTFOLIO_MANAGER">
+      <EntityTypeMapping TypeName="FDAModel.FUND_PORTFOLIO_MANAGER">
+        <MappingFragment StoreEntitySet="FUND_PORTFOLIO_MANAGER">
+          <ScalarProperty Name="FUND_ID" ColumnName="FUND_ID" />
+          <ScalarProperty Name="PORTFOLIO_MANAGER_ID" ColumnName="PORTFOLIO_MANAGER_ID" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_REGISTERED_COUNTRY">
+      <EntityTypeMapping TypeName="FDAModel.FUND_REGISTERED_COUNTRY">
+        <MappingFragment StoreEntitySet="FUND_REGISTERED_COUNTRY">
+          <ScalarProperty Name="FUND_ID" ColumnName="FUND_ID" />
+          <ScalarProperty Name="COUNTRY_ID" ColumnName="COUNTRY_ID" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_REPORTING_CURRENCY">
+      <EntityTypeMapping TypeName="FDAModel.FUND_REPORTING_CURRENCY">
+        <MappingFragment StoreEntitySet="FUND_REPORTING_CURRENCY">
+          <ScalarProperty Name="FUND_ID" ColumnName="FUND_ID" />
+          <ScalarProperty Name="CURRENCY_ID" ColumnName="CURRENCY_ID" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_SHARECLASS">
+      <EntityTypeMapping TypeName="FDAModel.FUND_SHARECLASS">
+        <MappingFragment StoreEntitySet="FUND_SHARECLASS">
+          <ScalarProperty Name="FUND_SHARECLASS_ID" ColumnName="FUND_SHARECLASS_ID" />
+          <ScalarProperty Name="SHARECLASS_ID" ColumnName="SHARECLASS_ID" />
+          <ScalarProperty Name="FUND_ID" ColumnName="FUND_ID" />
+          <ScalarProperty Name="LAUNCH_DATE" ColumnName="LAUNCH_DATE" />
+          <ScalarProperty Name="TERMINATION_DATE" ColumnName="TERMINATION_DATE" />
+          <ScalarProperty Name="WEB_PUBLISHING_IND" ColumnName="WEB_PUBLISHING_IND" />
+          <ScalarProperty Name="BASE_SHARECLASS_IND" ColumnName="BASE_SHARECLASS_IND" />
+          <ScalarProperty Name="RELATED_FUND_SHARECLASS_ID" ColumnName="RELATED_FUND_SHARECLASS_ID" />
+          <ScalarProperty Name="SHARECLASS_EXPLANATION_TEXT" ColumnName="SHARECLASS_EXPLANATION_TEXT" />
+          <ScalarProperty Name="DISTRIBUTION_POLICY_ID" ColumnName="DISTRIBUTION_POLICY_ID" />
+          <ScalarProperty Name="DISTRIBUTION_FREQUENCY_ID" ColumnName="DISTRIBUTION_FREQUENCY_ID" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_SHARECLASS_FEATURE">
+      <EntityTypeMapping TypeName="FDAModel.FUND_SHARECLASS_FEATURE">
+        <MappingFragment StoreEntitySet="FUND_SHARECLASS_FEATURE">
+          <ScalarProperty Name="FUND_SHARECLASS_ID" ColumnName="FUND_SHARECLASS_ID" />
+          <ScalarProperty Name="FUND_SHARECLASS_FEATURE_TYPE_ID" ColumnName="FUND_SHARECLASS_FEATURE_TYPE_ID" />
+          <ScalarProperty Name="FEATURE_TEXT" ColumnName="FEATURE_TEXT" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_SHARECLASS_FEATURE_TYPE">
+      <EntityTypeMapping TypeName="FDAModel.FUND_SHARECLASS_FEATURE_TYPE">
+        <MappingFragment StoreEntitySet="FUND_SHARECLASS_FEATURE_TYPE">
+          <ScalarProperty Name="FUND_SHARECLASS_FEATURE_TYPE_ID" ColumnName="FUND_SHARECLASS_FEATURE_TYPE_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_SHARECLASS_MANAGEMENT_FEE">
+      <EntityTypeMapping TypeName="FDAModel.FUND_SHARECLASS_MANAGEMENT_FEE">
+        <MappingFragment StoreEntitySet="FUND_SHARECLASS_MANAGEMENT_FEE">
+          <ScalarProperty Name="FUND_SHARECLASS_ID" ColumnName="FUND_SHARECLASS_ID" />
+          <ScalarProperty Name="VALID_FROM_DATE" ColumnName="VALID_FROM_DATE" />
+          <ScalarProperty Name="PERCENTAGE" ColumnName="PERCENTAGE" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUND_VALUATION_TIMING">
+      <EntityTypeMapping TypeName="FDAModel.FUND_VALUATION_TIMING">
+        <MappingFragment StoreEntitySet="FUND_VALUATION_TIMING">
+          <ScalarProperty Name="FUND_ID" ColumnName="FUND_ID" />
+          <ScalarProperty Name="FUND_VALUATION_TIMING_VALID_FROM_DATE" ColumnName="FUND_VALUATION_TIMING_VALID_FROM_DATE" />
+          <ScalarProperty Name="VALUATION_TIMING_ID" ColumnName="VALUATION_TIMING_ID" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GROUP_TYPE">
+      <EntityTypeMapping TypeName="FDAModel.GROUP_TYPE">
+        <MappingFragment StoreEntitySet="GROUP_TYPE">
+          <ScalarProperty Name="GROUP_TYPE_ID" ColumnName="GROUP_TYPE_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GROUP_USAGE">
+      <EntityTypeMapping TypeName="FDAModel.GROUP_USAGE">
+        <MappingFragment StoreEntitySet="GROUP_USAGE">
+          <ScalarProperty Name="GROUP_USAGE_ID" ColumnName="GROUP_USAGE_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GROUPINGs">
+      <EntityTypeMapping TypeName="FDAModel.GROUPING">
+        <MappingFragment StoreEntitySet="GROUPING">
+          <ScalarProperty Name="GROUP_USAGE_ID" ColumnName="GROUP_USAGE_ID" />
+          <ScalarProperty Name="GROUP_TYPE_ID" ColumnName="GROUP_TYPE_ID" />
+          <ScalarProperty Name="ORDER_NUMBER" ColumnName="ORDER_NUMBER" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOLDING_FILE_NAME">
+      <EntityTypeMapping TypeName="FDAModel.HOLDING_FILE_NAME">
+        <MappingFragment StoreEntitySet="HOLDING_FILE_NAME">
+          <ScalarProperty Name="HOLDING_FILE_NAME_ID" ColumnName="HOLDING_FILE_NAME_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IMA_SECTOR">
+      <EntityTypeMapping TypeName="FDAModel.IMA_SECTOR">
+        <MappingFragment StoreEntitySet="IMA_SECTOR">
+          <ScalarProperty Name="IMA_SECTOR_ID" ColumnName="IMA_SECTOR_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="INDEX_ELEMENT">
+      <EntityTypeMapping TypeName="FDAModel.INDEX_ELEMENT">
+        <MappingFragment StoreEntitySet="INDEX_ELEMENT">
+          <ScalarProperty Name="INDEX_ELEMENT_ID" ColumnName="INDEX_ELEMENT_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="INDEX_TYPE_ID" ColumnName="INDEX_TYPE_ID" />
+          <ScalarProperty Name="INDEX_VARIANT_TYPE_ID" ColumnName="INDEX_VARIANT_TYPE_ID" />
+          <ScalarProperty Name="INDEX_PROVIDER_ID" ColumnName="INDEX_PROVIDER_ID" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="INDEX_TYPE">
+      <EntityTypeMapping TypeName="FDAModel.INDEX_TYPE">
+        <MappingFragment StoreEntitySet="INDEX_TYPE">
+          <ScalarProperty Name="INDEX_TYPE_ID" ColumnName="INDEX_TYPE_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="INDEX_VARIANT_TYPE">
+      <EntityTypeMapping TypeName="FDAModel.INDEX_VARIANT_TYPE">
+        <MappingFragment StoreEntitySet="INDEX_VARIANT_TYPE">
+          <ScalarProperty Name="INDEX_VARIANT_TYPE_ID" ColumnName="INDEX_VARIANT_TYPE_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NAV_FILE_NAME">
+      <EntityTypeMapping TypeName="FDAModel.NAV_FILE_NAME">
+        <MappingFragment StoreEntitySet="NAV_FILE_NAME">
+          <ScalarProperty Name="NAV_FILE_NAME_ID" ColumnName="NAV_FILE_NAME_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PARTies">
+      <EntityTypeMapping TypeName="FDAModel.PARTY">
+        <MappingFragment StoreEntitySet="PARTY">
+          <ScalarProperty Name="PARTY_ID" ColumnName="PARTY_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PARTY_ROLE">
+      <EntityTypeMapping TypeName="FDAModel.PARTY_ROLE">
+        <MappingFragment StoreEntitySet="PARTY_ROLE">
+          <ScalarProperty Name="PARTY_ROLE_ID" ColumnName="PARTY_ROLE_ID" />
+          <ScalarProperty Name="PARTY_ID" ColumnName="PARTY_ID" />
+          <ScalarProperty Name="PARTY_ROLE_TYPE_ID" ColumnName="PARTY_ROLE_TYPE_ID" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PARTY_ROLE_TYPE">
+      <EntityTypeMapping TypeName="FDAModel.PARTY_ROLE_TYPE">
+        <MappingFragment StoreEntitySet="PARTY_ROLE_TYPE">
+          <ScalarProperty Name="PARTY_ROLE_TYPE_ID" ColumnName="PARTY_ROLE_TYPE_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="FDA_FDW_PREFIX_CODE" ColumnName="FDA_FDW_PREFIX_CODE" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RATINGs">
+      <EntityTypeMapping TypeName="FDAModel.RATING">
+        <MappingFragment StoreEntitySet="RATING">
+          <ScalarProperty Name="RATING_ID" ColumnName="RATING_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="RATING_PROVIDER_ID" ColumnName="RATING_PROVIDER_ID" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REBALANCING_FREQUENCY">
+      <EntityTypeMapping TypeName="FDAModel.REBALANCING_FREQUENCY">
+        <MappingFragment StoreEntitySet="REBALANCING_FREQUENCY">
+          <ScalarProperty Name="REBALANCING_FREQUENCY_ID" ColumnName="REBALANCING_FREQUENCY_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SECURITY_GROUP">
+      <EntityTypeMapping TypeName="FDAModel.SECURITY_GROUP">
+        <MappingFragment StoreEntitySet="SECURITY_GROUP">
+          <ScalarProperty Name="SECURITY_GROUP_ID" ColumnName="SECURITY_GROUP_ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SECURITY_GROUP_ROLE">
+      <EntityTypeMapping TypeName="FDAModel.SECURITY_GROUP_ROLE">
+        <MappingFragment StoreEntitySet="SECURITY_GROUP_ROLE">
+          <ScalarProperty Name="SECURITY_GROUP_ROLE_ID" ColumnName="SECURITY_GROUP_ROLE_ID" />
+          <ScalarProperty Name="SECURITY_GROUP_ID" ColumnName="SECURITY_GROUP_ID" />
+          <ScalarProperty Name="SECURITY_GROUP_ROLE_TYPE_ID" ColumnName="SECURITY_GROUP_ROLE_TYPE_ID" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SECURITY_GROUP_ROLE_TYPE">
+      <EntityTypeMapping TypeName="FDAModel.SECURITY_GROUP_ROLE_TYPE">
+        <MappingFragment StoreEntitySet="SECURITY_GROUP_ROLE_TYPE">
+          <ScalarProperty Name="SECURITY_GROUP_ROLE_TYPE_ID" ColumnName="SECURITY_GROUP_ROLE_TYPE_ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="FDA_FDW_PREFIX_CODE" ColumnName="FDA_FDW_PREFIX_CODE" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SHARECLASSes">
+      <EntityTypeMapping TypeName="FDAModel.SHARECLASS">
+        <MappingFragment StoreEntitySet="SHARECLASS">
+          <ScalarProperty Name="SHARECLASS_ID" ColumnName="SHARECLASS_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="HEDGE_CURRENCY_ID" ColumnName="HEDGE_CURRENCY_ID" />
+          <ScalarProperty Name="DEFAULT_EXPLANATION_TEXT" ColumnName="DEFAULT_EXPLANATION_TEXT" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SUMMARY_FILE_NAME">
+      <EntityTypeMapping TypeName="FDAModel.SUMMARY_FILE_NAME">
+        <MappingFragment StoreEntitySet="SUMMARY_FILE_NAME">
+          <ScalarProperty Name="SUMMARY_FILE_NAME_ID" ColumnName="SUMMARY_FILE_NAME_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UMBRELLAs">
+      <EntityTypeMapping TypeName="FDAModel.UMBRELLA">
+        <MappingFragment StoreEntitySet="UMBRELLA">
+          <ScalarProperty Name="UMBRELLA_ID" ColumnName="UMBRELLA_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="LEGAL_NAME" ColumnName="LEGAL_NAME" />
+          <ScalarProperty Name="SHORT_NAME" ColumnName="SHORT_NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="DOMICILE_COUNTRY_ID" ColumnName="DOMICILE_COUNTRY_ID" />
+          <ScalarProperty Name="PAYING_AGENT_ID" ColumnName="PAYING_AGENT_ID" />
+          <ScalarProperty Name="FILE_PROVIDER_ID" ColumnName="FILE_PROVIDER_ID" />
+          <ScalarProperty Name="CUSTODIAN_ID" ColumnName="CUSTODIAN_ID" />
+          <ScalarProperty Name="LEGAL_ADVISOR_ID" ColumnName="LEGAL_ADVISOR_ID" />
+          <ScalarProperty Name="ADMINISTRATIVE_MANAGER_ID" ColumnName="ADMINISTRATIVE_MANAGER_ID" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+          <ScalarProperty Name="VEHICLE_TYPE_ID" ColumnName="VEHICLE_TYPE_ID" />
+          <ScalarProperty Name="FISCAL_YEAR_END_ID" ColumnName="FISCAL_YEAR_END_ID" />
+          <ScalarProperty Name="STATUS_UPD_DATE" ColumnName="STATUS_UPD_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VALUATION_FREQUENCY">
+      <EntityTypeMapping TypeName="FDAModel.VALUATION_FREQUENCY">
+        <MappingFragment StoreEntitySet="VALUATION_FREQUENCY">
+          <ScalarProperty Name="VALUATION_FREQUENCY_ID" ColumnName="VALUATION_FREQUENCY_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VALUATION_TIMING">
+      <EntityTypeMapping TypeName="FDAModel.VALUATION_TIMING">
+        <MappingFragment StoreEntitySet="VALUATION_TIMING">
+          <ScalarProperty Name="VALUATION_TIMING_ID" ColumnName="VALUATION_TIMING_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VEHICLE_TYPE">
+      <EntityTypeMapping TypeName="FDAModel.VEHICLE_TYPE">
+        <MappingFragment StoreEntitySet="VEHICLE_TYPE">
+          <ScalarProperty Name="VEHICLE_TYPE_ID" ColumnName="VEHICLE_TYPE_ID" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ACTIVE_IND" ColumnName="ACTIVE_IND" />
+          <ScalarProperty Name="FDA_USER_CODE" ColumnName="FDA_USER_CODE" />
+          <ScalarProperty Name="FDA_LAST_UPD_DATE" ColumnName="FDA_LAST_UPD_DATE" />
+          <ScalarProperty Name="FDA_CREATION_DATE" ColumnName="FDA_CREATION_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

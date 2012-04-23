@@ -1,0 +1,44 @@
+﻿@model FundDataMaintenance.Models.SignInVM
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using FundDataMaintenance.Helpers
+
+<div class="page-header">
+    <h1>Fund Data Maintenance <small>Example application using TDD, BDD &amp; DDD</small></h1>
+</div>
+
+@using (Html.BeginForm())
+{
+    <fieldset>        
+        @{
+    if (!ViewData.ModelState.IsValid)
+    {
+        MvcHtmlString validationString = new MvcHtmlString("<div class='alert alert-error'>" + Html.ValidationSummary().ToString() + "</div>");
+        @validationString;
+    }
+        }
+        <div class="control-group">
+            @Html.LabelFor(o => o.Username, new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(o => o.Username)
+            </div>
+        </div>
+        <div class="control-group">
+            @Html.LabelFor(o => o.Password, new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(o => o.Password)
+            </div>
+        </div>
+        <div class="control-group">
+            @Html.LabelFor(o => o.RememberMe, new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(o => o.RememberMe)
+            </div>
+        </div>
+        @Html.AntiForgeryToken()
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Sign In</button>
+        </div>
+    </fieldset>
+}

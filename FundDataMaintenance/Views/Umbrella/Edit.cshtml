@@ -1,0 +1,68 @@
+﻿@model FundDataMaintenance.Models.UmbrellaEditVM
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using FundDataMaintenance.Helpers
+
+<div class="page-header">
+    <h1>Fund Data Maintenance <small>Example application using TDD, BDD &amp; DDD</small></h1>
+</div>
+
+@using (Html.BeginForm("Update", "Umbrella", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    <fieldset>
+        <legend>Umbrella Edit Screen</legend>
+        
+        <div class="control-group">
+            @Html.LabelFor(o => o.Code, new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(o => o.Code)    
+            </div>
+        </div>
+        <div class="control-group">
+            @Html.LabelFor(o => o.Name, new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(o => o.Name)    
+            </div>
+        </div>
+
+        <hr />
+        
+        <div class="control-group">
+            @Html.LabelFor(o => o.CustodianId, new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(o => o.CustodianId, new { selectlist = new SelectList(Model.CustodianSelectList, "Value", "Text") })
+            </div>
+        </div>
+        <div class="control-group">
+            @Html.LabelFor(o => o.DomicileCountryId, new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(o => o.DomicileCountryId, new { selectlist = new SelectList(Model.DomicileCountrySelectList, "Value", "Text") })
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="control-group">
+            @Html.LabelFor(o => o.ReadonlyActive, new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(o => o.ReadonlyActive)    
+            </div>
+        </div>
+
+        <div class="control-group">
+            @Html.LabelFor(o => o.Active, new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(o => o.Active)    
+            </div>
+        </div>
+
+
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Save changes</button>
+            <button class="btn" onclick="window.location='/'; return false;">Cancel</button>
+        </div>
+    </fieldset>
+}
+    
+

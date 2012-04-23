@@ -1,0 +1,10 @@
+<Modules>
+  <Module PersistentId="3F66565A-FE7E-4121-9F3A-597D7AE1D0D3" ModuleId="FundDataMaintenance" />
+  <Module PersistentId="6DC83900-2887-4177-8E34-1C283C16D77A" ModuleId="FundDataMaintenanceData" />
+  <Module PersistentId="A3C443CD-E5AF-4F79-BD5F-5094197AB36C" ModuleId="FundDataMaintenanceTest" />
+  <Module PersistentId="E4FB973C-F673-407E-9935-666794B25C79" ModuleId="FundDataMaintenanceRepository" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="dotless.Core" />
+  <Module PersistentId="0236F37A-978C-49BF-9614-4E61D8B1B2FD" ModuleId="FundDataMaintenaceBusiness" />
+  <Module PersistentId="52833DD1-45AC-4135-BB59-7FFE6761F581" ModuleId="FundDataMaintenanceSpecs" />
+  <Module PersistentId="66FFB3E8-8319-47E0-866E-3F2D0840AA58" ModuleId="FundDataMaintenanceTst" />
+</Modules>

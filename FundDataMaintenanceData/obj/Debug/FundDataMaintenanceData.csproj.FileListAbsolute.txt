@@ -1,0 +1,6 @@
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceData\bin\Debug\FundDataMaintenanceData.dll
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceData\bin\Debug\FundDataMaintenanceData.pdb
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceData\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceData\obj\Debug\FundDataMaintenanceData.dll
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceData\obj\Debug\FundDataMaintenanceData.pdb
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenanceData\bin\Debug\FundDataMaintenanceData.dll.config

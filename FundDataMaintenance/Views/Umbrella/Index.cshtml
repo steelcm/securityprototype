@@ -1,0 +1,32 @@
+﻿@model IEnumerable<FundDataMaintenance.Models.UmbrellaIndexVM>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-header">
+    <h1>Fund Data Maintenance <small>Example application using TDD, BDD &amp; DDD</small></h1>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Code</th>
+            <th>Custodian</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var x in Model)
+        {
+            <tr id="elem-@x.Id">
+                <td>
+                @Html.ActionLink(x.Name, "Edit", new {Id = x.Id}, new {@class = "elem-name"})
+                    <strong class="elem-fund-count">(@Html.DisplayFor(o => x.ActiveFundCount))</strong></td>
+                <td><span class="elem-code">@Html.DisplayFor(o => x.Code)</span></td>
+                <td><span class="elem-custodian">@Html.DisplayFor(o => x.Custodian)</span></td>
+                <td><span class="elem-status label@(x.Active ? " label-success" : string.Empty)">@Html.DisplayFor(o => x.Active, "BoolAsStatus")</span></td>
+            </tr>
+        }
+    </tbody>
+</table>

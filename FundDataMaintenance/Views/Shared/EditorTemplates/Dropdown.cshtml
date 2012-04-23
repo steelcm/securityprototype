@@ -1,0 +1,12 @@
+﻿@model int
+@{
+    var o = new System.Collections.Generic.Dictionary<string, object>();    
+    if (ViewData.ModelMetadata.IsReadOnly)
+    {
+        o.Add("class", "disabled");
+        o.Add("disabled", "disabled");
+        o.Add("readonly", "readonly");
+    }
+    var selectList = this.ViewData.Values.ToList()[0] as SelectList;
+    @Html.DropDownList("", selectList, o);    
+}

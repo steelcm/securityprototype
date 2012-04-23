@@ -1,0 +1,12 @@
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenaceBusiness\bin\Debug\FundDataMaintenaceBusiness.dll
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenaceBusiness\bin\Debug\FundDataMaintenaceBusiness.pdb
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenaceBusiness\bin\Debug\FundDataMaintenanceRepository.dll
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenaceBusiness\bin\Debug\FundDataMaintenanceData.dll
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenaceBusiness\bin\Debug\FundDataMaintenanceRepository.pdb
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenaceBusiness\bin\Debug\FundDataMaintenanceData.pdb
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenaceBusiness\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenaceBusiness\obj\Debug\FundDataMaintenaceBusiness.dll
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenaceBusiness\obj\Debug\FundDataMaintenaceBusiness.pdb
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenaceBusiness\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenaceBusiness\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Documents and Settings\CHMS\My Documents\Visual Studio 2010\Projects\Training.RSK.Day1\FundDataMaintenance\FundDataMaintenaceBusiness\bin\Debug\Microsoft.Practices.ServiceLocation.xml

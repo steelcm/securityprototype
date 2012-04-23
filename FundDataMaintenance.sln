@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundDataMaintenance", "FundDataMaintenance\FundDataMaintenance.csproj", "{3F66565A-FE7E-4121-9F3A-597D7AE1D0D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundDataMaintenanceData", "FundDataMaintenanceData\FundDataMaintenanceData.csproj", "{6DC83900-2887-4177-8E34-1C283C16D77A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundDataMaintenanceTest", "FundDataMaintenanceTest\FundDataMaintenanceTest.csproj", "{A3C443CD-E5AF-4F79-BD5F-5094197AB36C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundDataMaintenanceRepository", "FundDataMaintenanceRepository\FundDataMaintenanceRepository.csproj", "{E4FB973C-F673-407E-9935-666794B25C79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundDataMaintenaceBusiness", "FundDataMaintenaceBusiness\FundDataMaintenaceBusiness.csproj", "{0236F37A-978C-49BF-9614-4E61D8B1B2FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundDataMaintenanceSpecs", "FundDataMaintenanceSpecs\FundDataMaintenanceSpecs.csproj", "{52833DD1-45AC-4135-BB59-7FFE6761F581}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F66565A-FE7E-4121-9F3A-597D7AE1D0D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F66565A-FE7E-4121-9F3A-597D7AE1D0D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F66565A-FE7E-4121-9F3A-597D7AE1D0D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F66565A-FE7E-4121-9F3A-597D7AE1D0D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC83900-2887-4177-8E34-1C283C16D77A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC83900-2887-4177-8E34-1C283C16D77A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC83900-2887-4177-8E34-1C283C16D77A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC83900-2887-4177-8E34-1C283C16D77A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C443CD-E5AF-4F79-BD5F-5094197AB36C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C443CD-E5AF-4F79-BD5F-5094197AB36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C443CD-E5AF-4F79-BD5F-5094197AB36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C443CD-E5AF-4F79-BD5F-5094197AB36C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4FB973C-F673-407E-9935-666794B25C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4FB973C-F673-407E-9935-666794B25C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4FB973C-F673-407E-9935-666794B25C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4FB973C-F673-407E-9935-666794B25C79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0236F37A-978C-49BF-9614-4E61D8B1B2FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0236F37A-978C-49BF-9614-4E61D8B1B2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0236F37A-978C-49BF-9614-4E61D8B1B2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0236F37A-978C-49BF-9614-4E61D8B1B2FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52833DD1-45AC-4135-BB59-7FFE6761F581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52833DD1-45AC-4135-BB59-7FFE6761F581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52833DD1-45AC-4135-BB59-7FFE6761F581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52833DD1-45AC-4135-BB59-7FFE6761F581}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
