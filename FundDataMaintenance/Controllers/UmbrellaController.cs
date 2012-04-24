@@ -41,8 +41,10 @@ namespace FundDataMaintenance.Controllers{
         }
 
         [HttpPost]
-        public ActionResult Update(UmbrellaEditVM viewModel)
+        public ActionResult Update(UmbrellaEditVM viewModel, FormCollection formCollection)
         {
+            
+            
             return null;
         }
 

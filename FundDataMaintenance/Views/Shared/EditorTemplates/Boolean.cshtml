@@ -13,6 +13,7 @@
         o.Add("class", "disabled");
         o.Add("disabled", "disabled");
         o.Add("readonly", "readonly");
+        @Html.Hidden("", ViewData.TemplateInfo.FormattedModelValue);
     }
 
     @Html.CheckBox("", Model, o);

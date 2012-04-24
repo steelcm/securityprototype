@@ -1,9 +1,11 @@
 ﻿@{
-    if(!ViewContext.Controller.ValueProvider.GetValue("controller").RawValue.Equals("Session")){    
+    if(!ViewContext.Controller.ValueProvider.GetValue("controller").RawValue.Equals("Session")){
         if(Request.IsAuthenticated){
             @Html.ActionLink("Sign Out", "SignOut", "Session");
-        }else{
-            @Html.ActionLink("Sign In", "SignIn", "Session");
+        }
+        else
+        {
+            @Html.ActionLink("Sign In", "SignIn", "Session", new { @returnUrl = Request.Url.AbsolutePath }, null);
         }
     }
 }

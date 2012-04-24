@@ -56,14 +56,5 @@ namespace FundDataMaintenance.Controllers
             FormsAuthentication.SignOut();
             return Redirect("~/");
         }
-
-        private void UpdateCookiesAndContext(UserSM user)
-        {
-            //byte[] cipherText = user.Id.ToString().Encrypt();
-            //string base64CipherText = Convert.ToBase64String(cipherText);
-            //Response.Cookies.Add(new HttpCookie(GetCookieUserFilterAttribute.UserCookie, base64CipherText));
-            //HttpContext.User = new UserViewModel { Email = user.Email, Name = user.Name, IsLoggedIn = true };
-        }
-
     }
 }

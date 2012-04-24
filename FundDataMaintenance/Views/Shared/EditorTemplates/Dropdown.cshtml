@@ -13,6 +13,7 @@
         o.Add("class", "disabled");
         o.Add("disabled", "disabled");
         o.Add("readonly", "readonly");
+        @Html.Hidden("", ViewData.TemplateInfo.FormattedModelValue);
     }
     var selectList = this.ViewData.Values.ToList()[0] as SelectList;
     @Html.DropDownList("", selectList, o);    

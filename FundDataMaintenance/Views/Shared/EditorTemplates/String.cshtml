@@ -13,7 +13,9 @@
         o.Add("class", "disabled");
         o.Add("disabled", "disabled");
         o.Add("readonly", "readonly");
+        @Html.Hidden("", ViewData.TemplateInfo.FormattedModelValue);
     }
 
     @Html.TextBox("", ViewData.TemplateInfo.FormattedModelValue, o);
+    
 }

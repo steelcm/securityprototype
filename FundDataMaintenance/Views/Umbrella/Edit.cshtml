@@ -12,51 +12,50 @@
 {
     <fieldset>
         <legend>Umbrella Edit Screen</legend>
-        
-        <div class="control-group">
-            @Html.LabelFor(o => o.Code, new { @class = "control-label" })
-            <div class="controls">
-                @Html.EditorFor(o => o.Code)    
+        <div class="clear"><br /></div>
+        <div class="row">
+            <div class="control-group span6">
+                @Html.LabelFor(o => o.Code, new { @class = "control-label" })
+                <div class="controls">
+                    @Html.EditorFor(o => o.Code)    
+                </div>
+            </div>
+            <div class="control-group span6">
+                @Html.LabelFor(o => o.Name, new { @class = "control-label" })
+                <div class="controls">
+                    @Html.EditorFor(o => o.Name)    
+                </div>
             </div>
         </div>
-        <div class="control-group">
-            @Html.LabelFor(o => o.Name, new { @class = "control-label" })
-            <div class="controls">
-                @Html.EditorFor(o => o.Name)    
+        <div class="row">
+            <div class="control-group span6">
+                @Html.LabelFor(o => o.CustodianId, new { @class = "control-label" })
+                <div class="controls">
+                    @Html.EditorFor(o => o.CustodianId, new { selectlist = new SelectList(Model.CustodianSelectList, "Value", "Text") })
+                </div>
+            </div>
+            <div class="control-group span6">
+                @Html.LabelFor(o => o.DomicileCountryId, new { @class = "control-label" })
+                <div class="controls">
+                    @Html.EditorFor(o => o.DomicileCountryId, new { selectlist = new SelectList(Model.DomicileCountrySelectList, "Value", "Text") })
+                </div>
             </div>
         </div>
+        <div class="row">
+            <div class="control-group span6">
+                @Html.LabelFor(o => o.ReadonlyActive, new { @class = "control-label" })
+                <div class="controls">
+                    @Html.EditorFor(o => o.ReadonlyActive)    
+                </div>
+            </div>
 
-        <hr />
-        
-        <div class="control-group">
-            @Html.LabelFor(o => o.CustodianId, new { @class = "control-label" })
-            <div class="controls">
-                @Html.EditorFor(o => o.CustodianId, new { selectlist = new SelectList(Model.CustodianSelectList, "Value", "Text") })
+            <div class="control-group span6">
+                @Html.LabelFor(o => o.Active, new { @class = "control-label" })
+                <div class="controls">
+                    @Html.EditorFor(o => o.Active)    
+                </div>
             </div>
         </div>
-        <div class="control-group">
-            @Html.LabelFor(o => o.DomicileCountryId, new { @class = "control-label" })
-            <div class="controls">
-                @Html.EditorFor(o => o.DomicileCountryId, new { selectlist = new SelectList(Model.DomicileCountrySelectList, "Value", "Text") })
-            </div>
-        </div>
-
-        <hr />
-
-        <div class="control-group">
-            @Html.LabelFor(o => o.ReadonlyActive, new { @class = "control-label" })
-            <div class="controls">
-                @Html.EditorFor(o => o.ReadonlyActive)    
-            </div>
-        </div>
-
-        <div class="control-group">
-            @Html.LabelFor(o => o.Active, new { @class = "control-label" })
-            <div class="controls">
-                @Html.EditorFor(o => o.Active)    
-            </div>
-        </div>
-
 
         <div class="form-actions">
             <button type="submit" class="btn btn-primary">Save changes</button>

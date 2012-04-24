@@ -12,17 +12,18 @@ namespace FundDataMaintenance.Models
     public class UmbrellaEditVM
     {
         public int Id { get; set; }
-        
-        [ReadOnly(true)]
+
+        [ReadOnlyAuthorize]
         public string Code { get; set; }
         
-        [DisplayName("Legal Name"), ReadOnly(false)]
-        [ReadOnlyAuthorize]
+        [DisplayName("Legal Name")]
+        [ReadOnlyAuthorize(Roles = "Admin")]
         public string Name { get; set; }
         
         public string Custodian { get; set; }
         
-        [DisplayName("Custodian"), ReadOnly(true), UIHint("Dropdown")]
+        [DisplayName("Custodian"), UIHint("Dropdown")]
+        [ReadOnlyAuthorize]
         public int? CustodianId { get; set; }
         
         public IList<SelectListItem> CustodianSelectList { get; set; }
@@ -67,7 +68,8 @@ namespace FundDataMaintenance.Models
         [ReadOnlyAuthorize(Roles = "Admin,Foo,Bar")]
         public bool Active { get; set; }
 
-        [DisplayName("Readonly"), ReadOnly(true)]
+        [DisplayName("Readonly")]
+        [ReadOnlyAuthorize]
         public bool ReadonlyActive { get { return true; } }
 
         [DisplayName("No. Of Active Funds")]
